@@ -10,12 +10,8 @@ Contents will be in private repository
    GeoSon_Kingdom <./handbook_for_Kingdom>
    GeoSon_Inversion <./handbook_for_Inversion>
 
-.. toctree::
-   :maxdepth: 1
-   :caption: Geophysics
-   
-   GeoSon_Kingdom <./handbook_for_Kingdom>
-   GeoSon_Inversion <./handbook_for_Inversion>
+
+another toctree
 
 .. toctree::
    :maxdepth: 1
