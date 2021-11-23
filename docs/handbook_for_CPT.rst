@@ -13,10 +13,10 @@ GeoSon_CPT
 04. qt, qnet, and Nkt analysis
 
 
-12. OCR for CLAY
+12. qt and OCR for CLAY
 
 13. Dr and Friction angle for SAND
 
 14. qnet and Su for CLAY
 
-15. Gmax for SAND/CLAY
+15. Vs and Gmax for SAND/CLAY
