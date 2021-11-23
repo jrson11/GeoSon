@@ -16,5 +16,6 @@ Contents will be in private repository
    :caption: Geotechnics
    
    GeoSon_CPT<./handbook_for_CPT>
-   GeoSon_Engineering <./handbook_for_Engineering>
+   GeoSon_SoilTest <./handbook_for_SoilTest>
+   GeoSon_Slope <./handbook_for_Slope>
 
