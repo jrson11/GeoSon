@@ -1,7 +1,7 @@
 Integrated Offshore Geophysics and Geotechnical Engineering (Ditigal Handbook with Python)
 ===========================================================================================
 
-Contents will be in private repository
+**Contents will be in private repository**
 
 .. toctree::
    :maxdepth: 1
