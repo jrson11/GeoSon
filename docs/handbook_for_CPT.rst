@@ -15,10 +15,8 @@ GeoSon_CPT
 
 12. OCR for CLAY
 
-13. Dr for SAND
+13. Dr and Friction angle for SAND
 
-14. Friction angle for SAND
+14. qnet and Su for CLAY
 
-15. Su for CLAY
-
-16. Gmax for SAND/CLAY
+15. Gmax for SAND/CLAY
