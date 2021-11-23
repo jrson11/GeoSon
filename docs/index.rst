@@ -11,13 +11,10 @@ Contents will be in private repository
    GeoSon_Inversion <./handbook_for_Inversion>
 
 
-another toctree
-
 .. toctree::
    :maxdepth: 1
    :caption: Geotechnics
    
    GeoSon_CPT<./handbook_for_CPT>
    GeoSon_Engineering <./handbook_for_Engineering>
-   To be updated
 
