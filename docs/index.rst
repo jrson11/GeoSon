@@ -6,18 +6,16 @@ Integrated Offshore Geophysics and Geotechnical Engineering (Ditigal Handbook wi
 .. toctree::
    :maxdepth: 1
    :caption: Geophysics
-
-   To be updated <user_guide/installation>
    GeoSon_Kingdom <./handbook_for_Kingdom>
    GeoSon_Inversion <./handbook_for_Inversion>
+   To be updated
 
 .. toctree::
    :maxdepth: 1
    :caption: Geotechnics
-
-   To be updated <user_guide/installation>
+   GeoSon_CPT<./handbook_for_CPT>
    GeoSon_Engineering <./handbook_for_Engineering>
-
+   To be updated
 
 .. role:: underline
     :class: underline
