@@ -7,7 +7,7 @@ GeoSon_Inversion
 .. role:: underline
     :class: underline
     
-    :underline:'Contents will be in private repository'
+:underline:'Contents will be in private repository'
 
 01. Checking seismic attributes
 -------------------------------
