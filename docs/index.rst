@@ -9,7 +9,6 @@ Contents will be in private repository
    
    GeoSon_Kingdom <./handbook_for_Kingdom>
    GeoSon_Inversion <./handbook_for_Inversion>
-   To be updated
 
 .. toctree::
    :maxdepth: 1
@@ -17,7 +16,6 @@ Contents will be in private repository
    
    GeoSon_Kingdom <./handbook_for_Kingdom>
    GeoSon_Inversion <./handbook_for_Inversion>
-   To be updated
 
 .. toctree::
    :maxdepth: 1
