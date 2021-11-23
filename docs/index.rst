@@ -16,7 +16,7 @@ Integrated Offshore Geophysics and Geotechnical Engineering (Ditigal Handbook wi
    :caption: Geotechnics
 
    To be updated <user_guide/installation>
-
+   GeoSon_Engineering <./handbook_for_Engineering>
 
 
 .. role:: underline
