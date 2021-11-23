@@ -12,6 +12,7 @@ GeoSon_CPT
 
 04. qt, qnet, and Nkt analysis
 
+11. qc and Ic for SAND/CLAY
 
 12. qt and OCR for CLAY
 
