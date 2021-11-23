@@ -8,7 +8,8 @@ Integrated Offshore Geophysics and Geotechnical Engineering (Ditigal Handbook wi
    :caption: Geophysics
 
    To be updated <user_guide/installation>
-   
+   GeoSon_Inversion <./handbook_for_Inversion>
+
 .. toctree::
    :maxdepth: 1
    :caption: Geotechnics
