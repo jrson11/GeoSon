@@ -1,4 +1,4 @@
-GeoSon_Engineering
+GeoSon_SoilTest
 ==================
 - Python package for marine geotechnical engineering
 
