@@ -16,3 +16,8 @@ This includes integrated methods between geoscience and geotechnical engineering
 - **GeoSon_Geoscience**: A Python library for general **Geology+Geophysics+GIS** work
 - **GeoSon_Kingdom**: A Python library for geophysical seismic work with **IHS Kingdom**
 - **GeoSon_Inversion**: A Python+Julia library to predict **synthetic CPT** from seismic inversion
+
+## Link
+https://fugro-my.sharepoint.com/:f:/p/j_son/EjSOgSSES7ZPvRUAkVXlXsUBoYvYUVs5cbtvWx5Hk3XVnQ?e=UKGhz7
+- Only Fugro can access the link
+- Please report any errors from GeoSon to Dr.Son
