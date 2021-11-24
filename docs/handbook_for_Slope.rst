@@ -1,6 +1,6 @@
-GeoSon_SoilTest
+GeoSon_Slope
 ==================
-- Python package for marine geotechnical engineering
+- Python package for slope stability analysis
 
 **Contents will be in private repository**
 
