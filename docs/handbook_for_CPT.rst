@@ -6,11 +6,13 @@ GeoSon_CPT
 
 01. Interpolation
 
-02. In-situ stress (sv0, sv0e)
+02. Unit Weight (UW)
 
-03. Unit Weight (UW)
+03. In-situ stress (sv0, sv0e)
 
-04. qt, qnet, and Nkt analysis
+04. Soil behavior type (Ic)
+
+05. qt, qnet, and Nkt analysis
 
 11. qc and Ic for SAND/CLAY
 
