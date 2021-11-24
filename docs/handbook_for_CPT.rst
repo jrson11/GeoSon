@@ -12,9 +12,9 @@ GeoSon_CPT
 
 04. Soil Behaviour Type (Isbt, Ic)
 
-- 
--
--
+    - 
+    -
+    -
 
 05. qt, qnet, and Nkt analysis
 
