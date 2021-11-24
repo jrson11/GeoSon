@@ -1,6 +1,6 @@
 GeoSon_SoilTest
 ==================
-- Python package for marine geotechnical engineering
+- Python package for geotechnical lab tests data processing
 
 **Contents will be in private repository**
 
