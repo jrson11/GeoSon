@@ -4,13 +4,13 @@ GeoSon_Kingdom
 
 **Contents will be in private repository**
 
-01. Kingdom_inputs_from_AGS
+01. Kingdom inputs from AGS
 
-02. Kingdom_inputs_from_Uniplot
+02. Kingdom inputs from Uniplot
 
-03. Kingdom_interpolated_CPT_from_CSV
+03. Kingdom interpolated CPT from CSV
 
-04. Kingdom_inputs_from_MSCL
+04. Kingdom inputs from MSCL
 
 
 
