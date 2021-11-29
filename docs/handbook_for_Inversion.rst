@@ -14,10 +14,13 @@ GeoSon_Inversion
 
 04. Bandpass Filtering
 
-05. Density_Velocity Estimation
+05. Density Velocity Estimation
 
 06. Deterministic Optimization
 
 07. Stochastic Inversion
 
 08. Uncertainty Quantification
+
+
+11. Machine learning with CPT
