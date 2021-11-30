@@ -1,6 +1,6 @@
 GeoSon_Slope
 ==================
-- Python package for slope stability analysis
+- Handbook of geotechnical marine slope stability analysis
 
 **Contents will be in private repository, Not ready yet**
 
