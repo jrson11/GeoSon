@@ -6,9 +6,9 @@ GeoSon_Slope
 
 Introduction
 ------------
-01. Literature Review
+01. Literature review
 
-02. Background Theory
+02. Background theory
 
 Simple Case Studies
 -------------------
@@ -17,13 +17,13 @@ Simple Case Studies
 
 04. Finite Element Method (FEM)
 
-05. Spencer Method
+05. Spencer method
 
 Marine Case Studies
 -------------------
 
-06. Static Analysis
+06. Static analysis
 
-07. Dynamic Analysis
+07. Dynamic analysis
 
 
