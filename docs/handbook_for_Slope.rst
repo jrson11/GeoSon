@@ -4,13 +4,21 @@ GeoSon_Slope
 
 **Contents will be in private repository, Not ready yet**
 
-01. 
+Introduction
+------------
+01. Literature Review
 
-02. 
+02. Background Theory
 
-03.
+Simple Case Studies
+-------------------
 
-04. 
+03. Bishop simplified method
+
+04. Finite Element Method (FEM)
+
+Marine Case Studies
+-------------------
 
 05. 
 
