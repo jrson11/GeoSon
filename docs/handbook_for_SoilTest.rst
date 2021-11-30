@@ -2,7 +2,7 @@ GeoSon_SoilTest
 ==================
 - Python package for geotechnical lab tests data processing
 
-**Contents will be in private repository**
+**Contents will be in private repository, Not ready yet**
 
 01. CRS
 
