@@ -27,3 +27,5 @@ GeoSon_CPT
 14. qnet and Su for CLAY
 
 15. Vs and Gmax for SAND/CLAY
+
+21. Machine Learning with CPT data
