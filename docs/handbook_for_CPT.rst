@@ -2,7 +2,7 @@ GeoSon_CPT
 ==================
 - Python package for CPT processing
 
-**Contents will be in private repository**
+**Contents will be in private repository, Not ready yet**
 
 01. Interpolation
 
