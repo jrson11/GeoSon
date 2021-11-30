@@ -2,7 +2,7 @@ GeoSon_MSIR
 ==================
 - Python package to support integrated marine site investigation report
 
-**Contents will be in private repository**
+**Contents will be in private repository, Not ready yet**
 
 01. Map from in-situ tests
 
