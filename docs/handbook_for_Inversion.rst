@@ -23,4 +23,4 @@ GeoSon_Inversion
 08. Uncertainty Quantification
 
 
-11. Machine learning with CPT
+11. Machine learning with Seismic Attributes
