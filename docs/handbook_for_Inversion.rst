@@ -4,7 +4,7 @@ GeoSon_Inversion
 - Geophysical seismic processing to get various seismic attributes
 - Machine learning approaches to predict 3D synthetic engineering parameters from geophysics
     
-**Contents will be in private repository**
+**Contents will be in private repository, Not ready yet**
 
 01. Checking seismic attributes
 
