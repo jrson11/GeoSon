@@ -2,7 +2,7 @@ GeoSon_Geoscience
 ==================
 - Python library to support integrated marine site characterization
     
-**Contents will be in private repository**
+**Contents will be in private repository, Not ready yet**
 
 01. Mapping from AGS
 
