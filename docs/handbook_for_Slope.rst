@@ -14,13 +14,16 @@ Simple Case Studies
 -------------------
 
 03. Bishop simplified method
+
     - HYRCAN
 
 04. Finite Element Method (FEM)
+
     - ABAQUS
     - ADONIS
 
 05. Spencer method
+
     - Slope/W
 
 Marine Case Studies
