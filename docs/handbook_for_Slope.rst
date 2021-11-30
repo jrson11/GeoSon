@@ -17,13 +17,13 @@ Simple Case Studies
 
 04. Finite Element Method (FEM)
 
+05. Spencer Method
+
 Marine Case Studies
 -------------------
 
-05. 
+06. Static Analysis
 
-06.
+07. Dynamic Analysis
 
-07. 
 
-08. 
