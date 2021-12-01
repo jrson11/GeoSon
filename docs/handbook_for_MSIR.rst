@@ -17,13 +17,15 @@ Geology & Geophysics
 
 04. Geological horizon mapping
 
-05. Geological soil unitization
+05. Time-Depth estimation
 
-06. Stratigraphic cross-section
+06. Geological soil unitization
+
+07. Stratigraphic cross-section
 
 Statistics
 ----------
 
-07. Map of soil province
+08. Map of soil province
 
-08. Statistical uncertainty quantification
+09. Statistical uncertainty quantification
