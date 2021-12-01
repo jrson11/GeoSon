@@ -28,4 +28,4 @@ Statistics
 
 08. Map of soil province
 
-09. Statistical uncertainty quantification
+09. Uncertainty quantification
