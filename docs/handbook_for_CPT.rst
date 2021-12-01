@@ -4,7 +4,7 @@ GeoSon_CPT
 
 **Contents will be in private repository, Not ready yet**
 
-Fundamental CPT Processing
+Fundamental CPT processing
 --------------------------
 01. Interpolation
 
@@ -21,7 +21,7 @@ Fundamental CPT Processing
 05. qt, qnet, and Nkt analysis
 
 
-Engineering Parameters from CPT
+Engineering parameters from CPT
 -------------------------------
 
 11. qc and Ic for SAND/CLAY
@@ -39,6 +39,7 @@ Engineering Parameters from CPT
 15. Vs and Gmax for SAND/CLAY
 
 Machine learning with CPT data
+------------------------------
 
 21. Supervised clustering
 
