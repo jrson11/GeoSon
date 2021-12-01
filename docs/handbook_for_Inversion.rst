@@ -6,15 +6,23 @@ GeoSon_Inversion
     
 **Contents will be in private repository, Not ready yet**
 
+Ultra high-resolution seismic data
+-----------------------------------
 01. Checking seismic attributes
 
 02. Extracting seismic traces from SEGY
 
 03. Spectral Analysis
 
+Seismic data processing
+-----------------------
+
 04. Bandpass Filtering
 
 05. Density Velocity Estimation
+
+Acoustic impedance inversion
+----------------------------
 
 06. Deterministic Optimization
 
@@ -22,5 +30,5 @@ GeoSon_Inversion
 
 08. Uncertainty Quantification
 
-
-11. Machine learning with Seismic Attributes
+Machine learning
+----------------
