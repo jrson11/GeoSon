@@ -9,7 +9,7 @@ Integrated Offshore Geophysics and Geotechnical Engineering (Ditigal Handbook wi
    
    GeoSon_Kingdom <./handbook_for_Kingdom>
    GeoSon_Inversion <./handbook_for_Inversion>
-   GeoSon_MSIR <./handbook_for_MSIR>
+   GeoSon_Marine <./handbook_for_Marine>
 
 
 .. toctree::
@@ -19,6 +19,7 @@ Integrated Offshore Geophysics and Geotechnical Engineering (Ditigal Handbook wi
    GeoSon_CPT<./handbook_for_CPT>
    GeoSon_SoilTest <./handbook_for_SoilTest>
    GeoSon_Slope <./handbook_for_Slope>
+
 
 .. toctree::
    :maxdepth: 1
