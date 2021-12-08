@@ -1,7 +1,7 @@
 **Contents will be in private repository, Not ready yet**
 
 
-GeoSon_Marine
+GeoSon_Integration
 ==================
 - Python package to support integrated marine site investigation report
 
