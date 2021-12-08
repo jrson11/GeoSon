@@ -12,7 +12,7 @@ This includes integrated methods between geoscience and geotechnical engineering
 - **User Friendly Interface**: Users don't need to install Python. Put raw files into folders, and take results.
 
 ## Subset Libraries
-[//]- **GeoSon_Engineering**: A Python library for **marine geotechnical engineeirng** work
+[//]: - **GeoSon_Engineering**: A Python library for **marine geotechnical engineeirng** work
 - **GeoSon_Geoscience**: A Python library for general **Geology+Geophysics+GIS** work
 - **GeoSon_Kingdom**: A Python library for geophysical seismic work with **IHS Kingdom**
 - **GeoSon_Inversion**: A Python+Julia library to predict **synthetic CPT** from seismic inversion
