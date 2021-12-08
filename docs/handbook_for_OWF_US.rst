@@ -4,3 +4,7 @@
 OWF_US
 ==================
 
+Ørsted Sunrise Offshore Wind Farm
+`````````````````````````````````
+- Capacity:
+- https://sunrisewindny.com/about-sunrise-wind
