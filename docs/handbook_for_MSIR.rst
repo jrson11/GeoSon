@@ -1,4 +1,4 @@
-GeoSon_MSIR
+GeoSon_Marine
 ==================
 - Python package to support integrated marine site investigation report
 
