@@ -11,6 +11,9 @@ This includes integrated methods between geoscience and geotechnical engineering
 - **Efficiency**: *GeoSon* can help users to save time from working on huge Excel spreadsheets.
 - **User Friendly Interface**: Users don't need to install Python. Put raw files into folders, and take results.
 
+## Docs
+https://GeoSon.readthedocs.io
+
 <!---
 ## Subset Libraries
 - **GeoSon_Engineering**: A Python library for **marine geotechnical engineeirng** work
