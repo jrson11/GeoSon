@@ -10,6 +10,7 @@ Vindeby Offshore Wind Farm
 - Country: Denmark
 - Operation: 1991 ~ 2017 (25 yrs)
 - Capacity: 4.95 MW (11 x 450 kW)
+- https://en.wikipedia.org/wiki/Vindeby_Offshore_Wind_Farm
 
 Hornsea Offshore Wind Farm
 --------------------------
@@ -17,3 +18,6 @@ Hornsea Offshore Wind Farm
 - Country: UK
 - Operation: 2020 ~ 
 - Capacity: 1,218 MW (174 x 7 MW)
+- https://en.wikipedia.org/wiki/Hornsea_Wind_Farm
+
+
