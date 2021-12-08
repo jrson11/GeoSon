@@ -13,6 +13,9 @@ This includes integrated methods between geoscience and geotechnical engineering
 
 ## Docs
 https://GeoSon.readthedocs.io
+- Geophysics
+- Geotechnics
+- Renewable energy
 
 <!---
 ## Subset Libraries
