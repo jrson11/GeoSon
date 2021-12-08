@@ -1,10 +1,11 @@
+**Contents will be in private repository, Not ready yet**
+
 GeoSon_Inversion
 ==================
 - Acoustic impedance inversion of post-stack high resolution seismic data
 - Geophysical seismic processing to get various seismic attributes
 - Machine learning approaches to predict 3D synthetic engineering parameters from geophysics
     
-**Contents will be in private repository, Not ready yet**
 
 Ultra high-resolution seismic data
 -----------------------------------
