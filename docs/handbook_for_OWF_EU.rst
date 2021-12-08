@@ -21,3 +21,10 @@ Hornsea Offshore Wind Farm
 - https://en.wikipedia.org/wiki/Hornsea_Wind_Farm
 
 
+Hollandse Kust (west) Offshore Wind Farm
+-----------------------------------------
+- Interesting future based on advanced R&D (synthetic CPTs)
+- Country: Netherlands
+- Operation: 2025/2026 ~
+- Capacity: 700 MW
+- https://offshorewind.rvo.nl/generalw
