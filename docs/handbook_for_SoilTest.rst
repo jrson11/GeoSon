@@ -1,9 +1,9 @@
+**Contents will be in private repository, Not ready yet**
+
+
 GeoSon_SoilTest
 ==================
 - Python package for geotechnical lab tests data processing
-
-**Contents will be in private repository, Not ready yet**
-
 
 
 Consolidation tests
