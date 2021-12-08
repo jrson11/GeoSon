@@ -2,9 +2,7 @@ GeoSon_Kingdom
 ==================
 - Python package to support seismic work with IHS Kingdom
 
-.. role:: bluetext
-
-:bluetext:'Contents will be in private repository'
+**Contents will be in private repository**
 
 Converting Engineering data into Kingdom inputs
 -----------------------------------------------
