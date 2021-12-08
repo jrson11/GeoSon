@@ -9,7 +9,7 @@ Integrated Offshore Geophysics and Geotechnical Engineering (Ditigal Handbook wi
    
    GeoSon_Kingdom <./handbook_for_Kingdom>
    GeoSon_Inversion <./handbook_for_Inversion>
-   GeoSon_Marine <./handbook_for_Marine>
+   GeoSon_Integration <./handbook_for_Integration>
 
 
 .. toctree::
