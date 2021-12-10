@@ -16,10 +16,6 @@ Fundamental CPT processing
 
 04. Soil Behaviour Type (Isbt, Ic)
 
-    - Ic_1986 = f(Qt1,Fr)
-    - Ic_2009 = f(Qtn,Fr)
-    - Isbt_2010 = f(qc,fs)
-
 05. qt, qnet, and Nkt analysis
 
 
