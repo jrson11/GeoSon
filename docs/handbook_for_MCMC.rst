@@ -1,7 +1,12 @@
-**Contents will be in private repository, Not ready yet**
+**Contents are brief summary from online sources**
 
 GeoSon_MCMC
 ==================
 - Markov-Chain Monte Carlo Simulation
     
 
+Geostatistics at UT Austin
+```````````````````````````
+
+- What is Monte Carlo Simulation?
+https://www.youtube.com/watch?v=Qb8TsSINpnU
