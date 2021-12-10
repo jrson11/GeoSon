@@ -12,5 +12,6 @@ References
 Geostatistics at UT Austin
 ```````````````````````````
 
-- What is Monte Carlo Simulation? Random sampling from a distribution
-https://www.youtube.com/watch?v=Qb8TsSINpnU
+- What is Monte Carlo Simulation? 
+    - Random sampling from a distribution
+    - UT Austin: https://www.youtube.com/watch?v=Qb8TsSINpnU
