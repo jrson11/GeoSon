@@ -18,4 +18,4 @@ Converting Engineering data into Kingdom inputs
 
 Link
 ====
-https://fugro-my.sharepoint.com/:b:/r/personal/j_son_fugro_com/Documents/GeoSon/OneFugro/docs/FUSAMI_handbook_for_Kingdom.pdf?csf=1&web=1&e=b8H48b
+https://fugro-my.sharepoint.com/:b:/p/j_son/ETR4Chsb9DROsjhNx4bQe9UB0xWvA9DBDiOO_a-uOdV14w?e=Iy5TOs
