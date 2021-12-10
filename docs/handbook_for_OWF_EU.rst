@@ -1,4 +1,4 @@
-**Contents will be in private repository, Not ready yet**
+**Contents are brief summary from wikipedia**
 
 
 OWF_Europe
