@@ -1,11 +1,11 @@
 # *GeoSon*
 *GeoSon* is a private Python package that provides advanced ground model analysis for marine site characterization. 
 
-<img src="https://github.com/jrson11/FUSAMI/blob/main/images/GeoSon-concept_diagram-v2.png" width=400>
+<img src="https://github.com/jrson11/GeoSon/blob/main/images/GeoSon-concept_diagram-v2.png" width=400>
 This includes integrated methods between geoscience and geotechnical engineering based on probabilistic analysis to quantify the uncertainty of ground modeling.
 
 ## Features
-<img src="https://github.com/jrson11/FUSAMI/blob/main/images/GeoSon-working_process_One_Drive.png" width=400>
+<img src="https://github.com/jrson11/GeoSon/blob/main/images/GeoSon-working_process_One_Drive.png" width=400>
 
 - **Automation**: *GeoSon* can automatically detect input files and generate output results.
 - **Efficiency**: *GeoSon* can help users to save time from working on huge Excel spreadsheets.
