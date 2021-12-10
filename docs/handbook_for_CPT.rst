@@ -36,11 +36,4 @@ Engineering parameters from CPT
 
 15. Vs and Gmax for SAND/CLAY
 
-Machine learning with CPT data
-------------------------------
 
-21. Supervised clustering
-
-22. Unsupervised clustering
-
-23. Regression and prediction
