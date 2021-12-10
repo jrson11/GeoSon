@@ -23,6 +23,14 @@ Integrated Offshore Geophysics and Geotechnical Engineering (Ditigal Handbook wi
 
 .. toctree::
    :maxdepth: 1
+   :caption: Uncertainty
+   
+   GeoSon_MCMC<./handbook_for_MCMC>
+   GeoSon_Bayesian<./handbook_for_Bayes>
+
+
+.. toctree::
+   :maxdepth: 1
    :caption: Renewable Energy
    
    Offshore_Windfarm_in_Europe<./handbook_for_OWF_EU>
