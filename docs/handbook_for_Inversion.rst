@@ -31,5 +31,4 @@ Acoustic impedance inversion
 
 08. Uncertainty Quantification
 
-Machine learning
-----------------
+
