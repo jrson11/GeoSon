@@ -23,10 +23,11 @@ Integrated Offshore Geophysics and Geotechnical Engineering (Ditigal Handbook wi
 
 .. toctree::
    :maxdepth: 1
-   :caption: Uncertainty
+   :caption: Data Science
    
    GeoSon_MCMC<./handbook_for_MCMC>
    GeoSon_Bayesian<./handbook_for_Bayes>
+   GeoSon_ML<./handbook_for_ML>
 
 
 .. toctree::
