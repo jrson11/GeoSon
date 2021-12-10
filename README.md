@@ -15,6 +15,7 @@ This includes integrated methods between geoscience and geotechnical engineering
 https://GeoSon.readthedocs.io
 - Geophysics
 - Geotechnics
+- Data science
 - Renewable energy
 
 <!---
