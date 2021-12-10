@@ -11,7 +11,6 @@ Integrated Offshore Geophysics and Geotechnical Engineering (Ditigal Handbook wi
    GeoSon_Inversion <./handbook_for_Inversion>
    GeoSon_Integration <./handbook_for_Integration>
 
-
 .. toctree::
    :maxdepth: 1
    :caption: Geotechnics
@@ -20,7 +19,6 @@ Integrated Offshore Geophysics and Geotechnical Engineering (Ditigal Handbook wi
    GeoSon_SoilTest <./handbook_for_SoilTest>
    GeoSon_Slope <./handbook_for_Slope>
 
-
 .. toctree::
    :maxdepth: 1
    :caption: Data Science
@@ -28,7 +26,6 @@ Integrated Offshore Geophysics and Geotechnical Engineering (Ditigal Handbook wi
    GeoSon_MCMC<./handbook_for_MCMC>
    GeoSon_Bayesian<./handbook_for_Bayes>
    GeoSon_ML<./handbook_for_ML>
-
 
 .. toctree::
    :maxdepth: 1
