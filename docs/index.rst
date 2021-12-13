@@ -18,6 +18,7 @@ Integrated Offshore Geophysics and Geotechnical Engineering (Ditigal Handbook wi
    GeoSon_CPT<./handbook_for_CPT>
    GeoSon_SoilTest <./handbook_for_SoilTest>
    GeoSon_Slope <./handbook_for_Slope>
+   GeoSon_Foundation <./handbook_for_Foundation>
 
 .. toctree::
    :maxdepth: 1
