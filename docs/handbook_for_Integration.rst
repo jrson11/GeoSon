@@ -28,6 +28,6 @@ Geology & Geophysics
 Statistics
 ----------
 
-08. Map of soil province
+08. Soil province
 
 09. Uncertainty quantification
