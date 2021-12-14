@@ -7,10 +7,8 @@ GeoSon_MCMC
 
 
 References
-==========
+-----------
 
-Geostatistics at UT Austin
-```````````````````````````
 
 - What is Monte Carlo Simulation? 
     - Random sampling from a distribution
