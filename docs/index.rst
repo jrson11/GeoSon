@@ -27,6 +27,7 @@ Integrated Offshore Geophysics and Geotechnical Engineering (Ditigal Handbook wi
    GeoSon_MCMC<./handbook_for_MCMC>
    GeoSon_Bayesian<./handbook_for_Bayes>
    GeoSon_ML<./handbook_for_ML>
+   GeoSon_STAT<./handbook_for_STAT>
 
 .. toctree::
    :maxdepth: 1
