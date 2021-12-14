@@ -2,4 +2,4 @@
 
 GeoSon_STAT
 ==================
-- Statistics
+- Statistical analysis
