@@ -34,4 +34,7 @@ Marine Case Studies
 08. Probabilistic analysis
 
 
-Link - https://fugro-my.sharepoint.com/:b:/p/j_son/EafXqUBjTqtBnr3DG0jWR04BYo0eNNIXk1dfJOK0MjhEzg?e=vVGDhR
+Fugro link - https://fugro-my.sharepoint.com/:b:/p/j_son/EafXqUBjTqtBnr3DG0jWR04BYo0eNNIXk1dfJOK0MjhEzg?e=vVGDhR
+
+Reference link
+- http://www.geowizard.org/
