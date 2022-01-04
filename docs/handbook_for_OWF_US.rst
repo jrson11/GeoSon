@@ -22,6 +22,7 @@ Shell Atlantic Shores Offshore Wind
 
 
 Reference link
+- SUT Geotechnical Developments: https://sut-us.org/event/Geotechnical-Developments-in-US-Offshore-Wind/637193519267834512
 - Northeast windfarms: https://www.northeastoceandata.org/data-explorer/?energy-infrastructure
 - Marine minerals: https://mmis.doi.gov/BOEMMMIS/
 - 
