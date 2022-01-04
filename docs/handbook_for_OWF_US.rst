@@ -21,4 +21,4 @@ Shell Atlantic Shores Offshore Wind
 - https://www.atlanticshoreswind.com/
 
 
-Reference link - https://www.northeastoceandata.org/data-explorer/?energy-infrastructure|planning-areas
+Reference link - https://www.northeastoceandata.org/data-explorer/?energy-infrastructure
