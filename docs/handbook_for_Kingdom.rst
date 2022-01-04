@@ -16,6 +16,7 @@ Converting Engineering data into Kingdom inputs
 04. Kingdom inputs from MSCL
 
 
-Link - https://fugro-my.sharepoint.com/:b:/p/j_son/ETR4Chsb9DROsjhNx4bQe9UB0xWvA9DBDiOO_a-uOdV14w?e=Iy5TOs
 
-Reference training videos - https://www.youtube.com/watch?v=fFTF41XPzqc&list=PL8zN2fBBWhaCl0UgYjxJCVb474YyQhxPH&index=4
+Reference 
+---------
+Training videos - https://www.youtube.com/watch?v=fFTF41XPzqc&list=PL8zN2fBBWhaCl0UgYjxJCVb474YyQhxPH&index=4
