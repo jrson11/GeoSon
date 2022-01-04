@@ -32,3 +32,5 @@ Acoustic impedance inversion
 08. Uncertainty Quantification
 
 
+Reference link
+- Georgia Tech: https://slim.gatech.edu/
