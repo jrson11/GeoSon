@@ -19,3 +19,6 @@ Shell Atlantic Shores Offshore Wind
 - Operation: expected 2027 ~
 - Capacity: 1,510 MW
 - https://www.atlanticshoreswind.com/
+
+
+Reference link - https://www.northeastoceandata.org/data-explorer/?energy-infrastructure|planning-areas
