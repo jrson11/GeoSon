@@ -21,4 +21,7 @@ Shell Atlantic Shores Offshore Wind
 - https://www.atlanticshoreswind.com/
 
 
-Reference link - https://www.northeastoceandata.org/data-explorer/?energy-infrastructure
+Reference link
+- Northeast windfarms: https://www.northeastoceandata.org/data-explorer/?energy-infrastructure
+- Marine minerals: https://mmis.doi.gov/BOEMMMIS/
+- 
