@@ -39,4 +39,8 @@ Engineering parameters from CPT
 15. Vs and Gmax for SAND/CLAY
 
 
-Reference link - http://www.greggdrilling.com/webinars
+References
+----------
+
+- Webinars - http://www.greggdrilling.com/webinars
+
