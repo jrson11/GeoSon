@@ -31,3 +31,7 @@ Statistics
 08. Soil province
 
 09. Uncertainty quantification
+
+References
+-----------
+SUT Webinar (06-12-2020): Integrating geoscience data to build effective ground models for large wind farm sites - https://www.youtube.com/watch?v=dFVUg2zGBwI
