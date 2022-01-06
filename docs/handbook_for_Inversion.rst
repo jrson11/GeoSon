@@ -32,5 +32,7 @@ Acoustic impedance inversion
 08. Uncertainty Quantification
 
 
-Reference link
+References
+----------
 - Georgia Tech: https://slim.gatech.edu/
+- EAGE Webinar: In Search of the Quantitative Ground Model (Mark Vardy, 06-10-2020) - https://www.youtube.com/watch?v=dM3T9J_OdlE
