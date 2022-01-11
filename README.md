@@ -26,7 +26,7 @@ https://GeoSon.readthedocs.io
 - **GeoSon_Inversion**: A Python+Julia library to predict **synthetic CPT** from seismic inversion
 -->
 
-## Link
+## Fugro Link
 - Temporarily closed. Under construction to update.
 <!---
 https://fugro-my.sharepoint.com/:f:/p/j_son/EjSOgSSES7ZPvRUAkVXlXsUBoYvYUVs5cbtvWx5Hk3XVnQ?e=UKGhz7
