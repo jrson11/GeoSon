@@ -9,9 +9,9 @@ GeoSon_SoilTest
 Consolidation tests
 --------------------
 
-01. CRS
+01. CRS - https://www.geocomp.com/Products/LabSystems/TT-Constant-Rate-Strain-Mini
 
-02. IL
+02. IL - https://www.vjtech.co.uk/blog/consolidation-testing-an-introduction
 
 Triaxial tests
 ---------------
@@ -25,7 +25,7 @@ Shear tests
 ------------
 06. DS
 
-07. DSS
+07. DSS - https://www.vjtech.co.uk/blog/introduction-to-direct-simple-shear-dss-testing
 
 08. CSS
 
@@ -33,7 +33,7 @@ Shear tests
 
 Others
 ------
-10. BE
+10. BE - https://www.vjtech.co.uk/blog/introduction-to-bender-element-testing
 
 11. RC
 
