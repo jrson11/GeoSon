@@ -27,6 +27,9 @@ https://GeoSon.readthedocs.io
 -->
 
 ## Link
+- Temporarily closed. Under construction to update.
+<!---
 https://fugro-my.sharepoint.com/:f:/p/j_son/EjSOgSSES7ZPvRUAkVXlXsUBoYvYUVs5cbtvWx5Hk3XVnQ?e=UKGhz7
 - Only Fugro can access the link
 - Please report any errors from GeoSon to Dr.Son
+-->
