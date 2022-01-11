@@ -37,4 +37,4 @@ Others
 
 11. RC - https://www.geotechdata.info/geotest/resonant-column-test
 
-12. RS
+12. RS - https://www.youtube.com/watch?v=R9vTsrE8bSA
