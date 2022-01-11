@@ -15,7 +15,7 @@ Consolidation tests
 
 Triaxial tests
 ---------------
-03. UU
+03. UU - https://www.vjtech.co.uk/blog/triaxial-testing-an-introduction
 
 04. CU
 
@@ -35,6 +35,6 @@ Others
 ------
 10. BE - https://www.vjtech.co.uk/blog/introduction-to-bender-element-testing
 
-11. RC
+11. RC - https://www.geotechdata.info/geotest/resonant-column-test
 
 12. RS
