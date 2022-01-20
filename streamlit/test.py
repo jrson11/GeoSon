@@ -6,8 +6,8 @@ import pandas as pd
 
 
 # -- Create sidebar to define input parameter
-st.sidebar.markdown('## Set Nt for Undisturbed Sample')
-Nt_und = st.sidebar.slider('Nt [-]', 5, 15.0, 10.5)  # min, max, default
+#st.sidebar.markdown('## Set Nt for Undisturbed Sample')
+#Nt_und = st.sidebar.slider('Nt [-]', 5, 15.0, 10.5)  # min, max, default
 
 
 # -- Create upbar to import data
