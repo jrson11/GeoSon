@@ -7,7 +7,7 @@ import pandas as pd
 
 # -- Create sidebar for plot controls
 st.sidebar.markdown('## Set Plot Parameters')
-Nt_und = st.sidebar.slider('Nt undisturbed', 5.0, 8.0, 1.0)  # min, max, default
+Nt_und = st.sidebar.slider('Nt undisturbed', 5.0, 15.0, 10.5)  # min, max, default
 
 
 
