@@ -9,7 +9,7 @@ add_selectbox = st.sidebar.selectbox(
     ("Email", "Home phone", "Mobile phone")
 )
 
-uploaded_file = st.file_uploader(“Choose a file”)
+uploaded_files = st.file_uploader("Choose a CSV file", accept_multiple_files=True)
 
 with st.echo(code_location='below'):
     total_points = st.slider("Number of points in spiral", 1, 5000, 2000)
