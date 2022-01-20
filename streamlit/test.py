@@ -4,17 +4,25 @@ import numpy as np
 import pandas as pd
 
 
+
+# -- Create sidebar to define input parameter
+st.sidebar.markdown('## Set Nt for Undisturbed Sample')
+Nt_und = st.sidebar.slider('Nt [-]', 5, 15.0, 10.5)  # min, max, default
+
+# -- Create sidebar to define input parameter
+st.sidebar.markdown('## Set Nt for Remolded Sample')
+Nt_rem = st.sidebar.slider('Nt [-]', 5, 15.0, 10.5)  # min, max, default
+
+# -- Create sidebar to choose user
 add_selectbox = st.sidebar.selectbox(
-    "How would you like to be contacted?",
-    ("Email", "Home phone", "Mobile phone")
+    "Fugro User?",
+    ("J", "B", "S")
 )
 
+# -- Create upbar to import data
 uploaded_files = st.file_uploader("Choose ASC files", accept_multiple_files=True)
 
-# -- Create sidebar for plot controls
-st.sidebar.markdown('## Set Plot Parameters')
-dtboth = st.sidebar.slider('Time Range (seconds)', 0.1, 8.0, 1.0)  # min, max, default
-dt = dtboth / 2.0
+
 
 
 with st.echo(code_location='below'):
