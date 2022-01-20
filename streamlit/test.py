@@ -5,9 +5,10 @@ import pandas as pd
 
 
 
-# -- Create sidebar to define input parameter
-st.sidebar.markdown('## Set Nt for Undisturbed Sample')
-Nt_und = st.sidebar.slider('Nt [-]', 5, 15.0, 10)  # min, max, default
+# -- Create sidebar for plot controls
+st.sidebar.markdown('## Set Plot Parameters')
+dtboth = st.sidebar.slider('Time Range (seconds)', 0.1, 8.0, 1.0)  # min, max, default
+
 
 
 # -- Create upbar to import data
