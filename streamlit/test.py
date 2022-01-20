@@ -8,7 +8,9 @@ import pandas as pd
 # -- Create sidebar for plot controls
 st.sidebar.markdown('## Set Plot Parameters')
 Nt_und = st.sidebar.slider('Nt undisturbed', 5.0, 15.0, 10.5)  # min, max, default
-
+#
+st.sidebar.markdown('## Set Plot Parameters')
+Nt_rem = st.sidebar.slider('Nt remolded', 5.0, 15.0, 10.5)  # min, max, default
 
 
 # -- Create upbar to import data
