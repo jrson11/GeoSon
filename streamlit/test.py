@@ -9,9 +9,6 @@ import pandas as pd
 st.sidebar.markdown('## Set Nt for Undisturbed Sample')
 Nt_und = st.sidebar.slider('Nt [-]', 5, 15.0, 10.5)  # min, max, default
 
-# -- Create sidebar to define input parameter
-st.sidebar.markdown('## Set Nt for Remolded Sample')
-Nt_rem = st.sidebar.slider('Nt [-]', 5, 15.0, 10.5)  # min, max, default
 
 # -- Create upbar to import data
 uploaded_files = st.file_uploader("Choose ASC files", accept_multiple_files=True)
