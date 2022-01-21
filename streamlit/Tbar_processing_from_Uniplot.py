@@ -23,6 +23,10 @@ def dfTbarfromUniplotASC():
         loca = txt_file.split()[0]
         print(txt_file)
         
+        
+        
+        
+    return df_TBAR_first, df_TBAR_last
 
-
+dfTbarfromUniplotASC
     
