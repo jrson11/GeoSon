@@ -9,6 +9,8 @@ Nt_rem = st.sidebar.slider('Nt remolded', 5.0, 15.0, 10.5)  # min, max, default
 
 # -- Create upbar to import data
 asc_list = st.file_uploader("Choose ASC files", accept_multiple_files=True)
+n_asc = len(asc_list)
 
+print(n_asc)
 
     
