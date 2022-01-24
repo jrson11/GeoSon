@@ -1,7 +1,5 @@
 import numpy as np
 import pandas as pd
-pip install matplotlib.pyplot
-import matplotlib.pyplot as plt
 import streamlit as st
 
 '''
