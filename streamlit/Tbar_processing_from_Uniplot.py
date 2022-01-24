@@ -26,8 +26,8 @@ st.text('Number of ASC files: '+str(n_asc))
 
 
 # Memory allocation
-III1 = pd.DataFrame()
-III0 = pd.DataFrame()
+df_TBAR_first = pd.DataFrame()
+df_TBAR_last = pd.DataFrame()
 
 for asc_file in asc_files:
     
@@ -49,67 +49,67 @@ for asc_file in asc_files:
     #st.dataframe(df_tbar)
     
     #
-    df_tbar.loc[:,'Rec'] = pd.to_numeric(df_tbar.loc[:,'Rec'])
-    df_tbar.loc[:,'Depth_m'] = pd.to_numeric(df_tbar.loc[:,'Depth_m'])
-    df_tbar.loc[:,'Time_s'] = pd.to_numeric(df_tbar.loc[:,'Time_s'])
-    df_tbar.loc[:,'qT'] = pd.to_numeric(df_tbar.loc[:,'qT'])
-    df_tbar.loc[:,'qT_pull'] = pd.to_numeric(df_tbar.loc[:,'qT_pull'])
-    #st.dataframe(df_tbar)
+    iiii.loc[:,'Rec'] = pd.to_numeric(iiii.loc[:,'Rec'])
+    iiii.loc[:,'Depth_m'] = pd.to_numeric(iiii.loc[:,'Depth_m'])
+    iiii.loc[:,'Time_s'] = pd.to_numeric(iiii.loc[:,'Time_s'])
+    iiii.loc[:,'qT'] = pd.to_numeric(iiii.loc[:,'qT'])
+    iiii.loc[:,'qT_pull'] = pd.to_numeric(iiii.loc[:,'qT_pull'])
+    #st.dataframe(iiii)
     #
-    df_tbar['qT_MPa'] = np.nan
-    ii = df_tbar['qT'].isnull()
+    iiii['qT_MPa'] = np.nan
+    ii = iiii['qT'].isnull()
     #st.dataframe(ii)
-    df_tbar.loc[~ii,'qT_MPa'] = df_tbar.loc[~ii,'qT']
-    ii = df_tbar['qT_pull'].isnull()
+    iiii.loc[~ii,'qT_MPa'] = iiii.loc[~ii,'qT']
+    ii = iiii['qT_pull'].isnull()
     #st.dataframe(ii)
-    df_tbar.loc[~ii,'qT_MPa'] = df_tbar.loc[~ii,'qT_pull']
-    df_tbar.drop(columns=['qT','qT_pull'], inplace=True)
+    iiii.loc[~ii,'qT_MPa'] = iiii.loc[~ii,'qT_pull']
+    iiii.drop(columns=['qT','qT_pull'], inplace=True)
     
-    if df_tbar.loc[0,'qT_MPa'] < 0:
-        df_tbar.loc[0,'qT_MPa'] = 0
+    if iiii.loc[0,'qT_MPa'] < 0:
+        iiii.loc[0,'qT_MPa'] = 0
     
     # Define push & pull to find cycles
-    df_tbar['test_type'] = 'push'
-    ii = df_tbar.loc[:,'qT_MPa'] < 0
-    df_tbar.loc[ii,'test_type'] = 'pull'
+    iiii['test_type'] = 'push'
+    ii = iiii.loc[:,'qT_MPa'] < 0
+    iiii.loc[ii,'test_type'] = 'pull'
     #
-    df_tbar['diff'] = (df_tbar.test_type != df_tbar.test_type.shift()).astype(int)
-    df_tbar['diff_cumsum'] = df_tbar['diff'].cumsum()
-    df_tbar['cycle'] = np.floor((df_tbar['diff_cumsum']-1)/2+1).astype(int)    
-    df_tbar.drop(columns=['diff','diff_cumsum'], inplace=True)
-    st.dataframe(df_tbar)
+    iiii['diff'] = (iiii.test_type != iiii.test_type.shift()).astype(int)
+    iiii['diff_cumsum'] = iiii['diff'].cumsum()
+    iiii['cycle'] = np.floor((iiii['diff_cumsum']-1)/2+1).astype(int)    
+    iiii.drop(columns=['diff','diff_cumsum'], inplace=True)
+    st.dataframe(iiii)
     # Add location
     loca = asc_file.name.split()[0]
     st.text(loca)
-    df_tbar.insert(0,'Loca',loca)
+    iiii.insert(0,'Loca',loca)
     
     # Fine first and last push only
-    ii = df_tbar['cycle'] == 1
-    jj = df_tbar['test_type'] == 'push'
-    df_tbar_first = df_tbar.loc[ii&jj]
+    ii = iiii['cycle'] == 1
+    jj = iiii['test_type'] == 'push'
+    df_tbar_first = iiii.loc[ii&jj]
     df_tbar_first.drop(columns=['test_type'], inplace=True)
     #
-    ii = df_tbar['cycle'] == max(df_tbar['cycle'])
-    jj = df_tbar['test_type'] == 'push'
-    df_tbar_last = df_tbar.loc[ii&jj]
+    ii = iiii['cycle'] == max(iiii['cycle'])
+    jj = iiii['test_type'] == 'push'
+    df_tbar_last = iiii.loc[ii&jj]
     df_tbar_last.drop(columns=['test_type'], inplace=True)
     
     # Calculate Su
-    iii1.insert(iii1.shape[1],'qT_kPa',iii1['qT_MPa']*1000)
-    iii1.insert(iii1.shape[1],'Su_ksf',iii1['qT_kPa']/Nt_und)
-    iii1['Nt_und'] = Nt_und
-    iii0.insert(iii0.shape[1],'qT_kPa',iii0['qT_MPa']*1000)
-    iii0.insert(iii0.shape[1],'Su_ksf',iii0['qT_kPa']/Nt_rem)
-    iii0['Nt_rem'] = Nt_rem
+    df_tbar_first.insert(df_tbar_first.shape[1],'qT_kPa',df_tbar_first['qT_MPa']*1000)
+    df_tbar_first.insert(df_tbar_first.shape[1],'Su_ksf',df_tbar_first['qT_kPa']/Nt_und)
+    df_tbar_first['Nt_und'] = Nt_und
+    df_tbar_last.insert(df_tbar_last.shape[1],'qT_kPa',df_tbar_last['qT_MPa']*1000)
+    df_tbar_last.insert(df_tbar_last.shape[1],'Su_ksf',df_tbar_last['qT_kPa']/Nt_rem)
+    df_tbar_last['Nt_rem'] = Nt_rem
     
     # Combine all
-    III1 = pd.concat([III1,iii1])    
-    III0 = pd.concat([III0,iii0])    
+    df_TBAR_first = pd.concat([df_TBAR_first,df_tbar_first])    
+    df_TBAR_last = pd.concat([df_TBAR_last,df_tbar_last])    
     
         
 ## -- Plotting
-locas = np.unique(III1['Loca'])
-zmax = max(III1['Depth_m'])
+locas = np.unique(df_TBAR_first['Loca'])
+zmax = max(df_TBAR_first['Depth_m'])
 
 def matplot_Tbar(locas,zmax):
 
@@ -117,15 +117,15 @@ def matplot_Tbar(locas,zmax):
 
     for i in range(len(locas)):
         loca = locas[i]
-        ii = III1['Loca'] == loca
-        jj = III0['Loca'] == loca
+        ii = df_TBAR_first['Loca'] == loca
+        jj = df_TBAR_last['Loca'] == loca
         #
-        ax[0].plot(III1.loc[ii,'Su_ksf'],III1.loc[ii,'Depth_m'],'.',alpha=0.5,label=loca)
+        ax[0].plot(df_TBAR_first.loc[ii,'Su_ksf'],df_TBAR_first.loc[ii,'Depth_m'],'.',alpha=0.5,label=loca)
         ax[0].set_xlabel('Su [ksf]')
         ax[0].set_ylabel('Depth [m]')
         ax[0].set_title('Tbar first push')
         #
-        ax[1].plot(III0.loc[jj,'Su_ksf'],III0.loc[jj,'Depth_m'],'.',alpha=0.5,label=loca)
+        ax[1].plot(df_TBAR_last.loc[jj,'Su_ksf'],df_TBAR_last.loc[jj,'Depth_m'],'.',alpha=0.5,label=loca)
         ax[1].set_xlabel('Su [ksf]')
         ax[1].set_title('Tbar last push')
         #
@@ -149,11 +149,11 @@ def matplot_Tbar(locas,zmax):
 ## Resulting Tables
 #### First push
 '''
-st.dataframe(III1)
+st.dataframe(df_TBAR_first)
 '''
 #### Last push
 '''
-st.dataframe(III0)
+st.dataframe(df_TBAR_last)
 
 
 
@@ -163,8 +163,8 @@ def convert_df(df):
      return df.to_csv(index=False).encode('utf-8')
 
 
-csv_first = convert_df(III1)
-csv_last = convert_df(III0)
+csv_first = convert_df(df_TBAR_first)
+csv_last = convert_df(df_TBAR_last)
 
 st.sidebar.markdown('## Download the Processing Results')
 
