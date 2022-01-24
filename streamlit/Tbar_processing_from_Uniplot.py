@@ -86,8 +86,8 @@ for asc_file in asc_files:
     # Fine first and last push only
     ii = df_tbar['cycle'] == 1
     jj = df_tbar['test_type'] == 'push'
-    df_tbar_first = df_tbar.loc[ii&jj]
-    df_tbar_first.drop(columns=['test_type'], inplace=True)
+    iiii = df_tbar.loc[ii&jj]
+    iiii.drop(columns=['test_type'], inplace=True)
     #
     ii = df_tbar['cycle'] == max(df_tbar['cycle'])
     jj = df_tbar['test_type'] == 'push'
@@ -95,21 +95,21 @@ for asc_file in asc_files:
     df_tbar_last.drop(columns=['test_type'], inplace=True)
     
     # Calculate Su
-    df_tbar_first.insert(df_tbar_first.shape[1],'qT_kPa',df_tbar_first['qT_MPa']*1000)
-    df_tbar_first.insert(df_tbar_first.shape[1],'Su_ksf',df_tbar_first['qT_kPa']/Nt_und)
-    df_tbar_first['Nt_und'] = Nt_und
+    iiii.insert(iiii.shape[1],'qT_kPa',iiii['qT_MPa']*1000)
+    iiii.insert(iiii.shape[1],'Su_ksf',iiii['qT_kPa']/Nt_und)
+    iiii['Nt_und'] = Nt_und
     df_tbar_last.insert(df_tbar_last.shape[1],'qT_kPa',df_tbar_last['qT_MPa']*1000)
     df_tbar_last.insert(df_tbar_last.shape[1],'Su_ksf',df_tbar_last['qT_kPa']/Nt_rem)
     df_tbar_last['Nt_rem'] = Nt_rem
     
     # Combine all
-    df_TBAR_first = pd.concat([df_TBAR_first,df_tbar_first])    
+    iiii = pd.concat([iiii,iiii])    
     df_TBAR_last = pd.concat([df_TBAR_last,df_tbar_last])    
     
         
 ## -- Plotting
-locas = np.unique(df_TBAR_first['Loca'])
-zmax = max(df_TBAR_first['Depth_m'])
+locas = np.unique(iiii['Loca'])
+zmax = max(iiii['Depth_m'])
 
 def matplot_Tbar(locas,zmax):
 
@@ -117,10 +117,10 @@ def matplot_Tbar(locas,zmax):
 
     for i in range(len(locas)):
         loca = locas[i]
-        ii = df_TBAR_first['Loca'] == loca
+        ii = iiii['Loca'] == loca
         jj = df_TBAR_last['Loca'] == loca
         #
-        ax[0].plot(df_TBAR_first.loc[ii,'Su_ksf'],df_TBAR_first.loc[ii,'Depth_m'],'.',alpha=0.5,label=loca)
+        ax[0].plot(iiii.loc[ii,'Su_ksf'],iiii.loc[ii,'Depth_m'],'.',alpha=0.5,label=loca)
         ax[0].set_xlabel('Su [ksf]')
         ax[0].set_ylabel('Depth [m]')
         ax[0].set_title('Tbar first push')
@@ -149,7 +149,7 @@ def matplot_Tbar(locas,zmax):
 ## Resulting Tables
 #### First push
 '''
-st.dataframe(df_TBAR_first)
+st.dataframe(iiii)
 '''
 #### Last push
 '''
@@ -163,7 +163,7 @@ def convert_df(df):
      return df.to_csv(index=False).encode('utf-8')
 
 
-csv_first = convert_df(df_TBAR_first)
+csv_first = convert_df(iiii)
 csv_last = convert_df(df_TBAR_last)
 
 st.sidebar.markdown('## Download the Processing Results')
