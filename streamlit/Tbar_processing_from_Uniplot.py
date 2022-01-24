@@ -85,24 +85,24 @@ for asc_file in asc_files:
     iiiii.insert(iiiii.shape[1],'Su_ksf',iiiii['qT_kPa']/Nt_rem)
     iiiii['Nt_rem'] = Nt_rem
     
-    iiii = pd.concat([iiii,iiii])    
-    iiiii = pd.concat([iiiii,iiiii])    
+    iiiiii = pd.concat([iiiiii,iiii])    
+    iiiiiii = pd.concat([iiiiiii,iiiii])    
 
 '''
 ## Resulting Tables
 #### First push
 '''
-st.dataframe(iiii)
+st.dataframe(iiiiii)
 '''
 #### Last push
 '''
-st.dataframe(iiiii)
+st.dataframe(iiiiiii)
 
 def convert_df(df):
      return df.to_csv(index=False).encode('utf-8')
 
-csv_first = convert_df(iiii)
-csv_last = convert_df(iiiii)
+csv_first = convert_df(iiiiii)
+csv_last = convert_df(iiiiiii)
 
 st.sidebar.markdown('## Download the Processing Results')
 
