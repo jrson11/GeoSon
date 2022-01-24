@@ -27,16 +27,16 @@ iiiiiii = pd.DataFrame()
 
 for asc_file in asc_files:
     
-    df_asc = pd.read_csv(asc_file, skiprows=41, usecols=[0,1,2,3,4])
-    cols = df_asc.columns
-    #st.dataframe(df_asc)
+    iiiiiiii = pd.read_csv(asc_file, skiprows=41, usecols=[0,1,2,3,4])
+    cols = iiiiiiii.columns
+    #st.dataframe(iiiiiiii)
     
     # If input file has more header, find 'No'
-    ii = df_asc[cols[0]] == 'No'
+    ii = iiiiiiii[cols[0]] == 'No'
     #st.dataframe(ii)
     idx = ii[ii].index.astype(int)[0]
     #st.text(idx)
-    df_tbar = df_asc.loc[idx+1:,cols[0:5]]
+    df_tbar = iiiiiiii.loc[idx+1:,cols[0:5]]
     df_tbar.columns = ['Rec','Depth_m','Time_s','qT','qT_pull']
         
     # Reset index
