@@ -12,8 +12,8 @@ Last Update: 1/22/2021 \n
 
 # -- Create sidebar for plot controls
 st.sidebar.markdown('## Set Nt Parameters')
-Nt_und = st.sidebar.slider('Nt undisturbed', 5.0, 15.0, 10.5)  # min, max, default
-Nt_rem = st.sidebar.slider('Nt remolded', 5.0, 15.0, 10.5)  # min, max, default
+Nt_und = st.sidebar.slider('Nt undisturbed', 8.5, 15.5, 10.5)  # min, max, default
+Nt_rem = st.sidebar.slider('Nt remolded', 8.5, 15.5, 10.5)  # min, max, default
 
 # -- Create upbar to import data
 asc_files = st.sidebar.file_uploader('Choose converted CSV files from Uniplot ASC', accept_multiple_files=True)
