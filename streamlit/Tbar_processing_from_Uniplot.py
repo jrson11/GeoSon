@@ -26,8 +26,8 @@ st.text('Number of ASC files: '+str(n_asc))
 
 
 # Memory allocation
-df_TBAR_first = pd.DataFrame()
-df_TBAR_last = pd.DataFrame()
+iiiiii = pd.DataFrame()
+iiiiiii = pd.DataFrame()
 
 for asc_file in asc_files:
     
@@ -106,41 +106,7 @@ for asc_file in asc_files:
     iiii = pd.concat([iiii,iiii])    
     iiiii = pd.concat([iiiii,iiiii])    
     
-        
-## -- Plotting
-locas = np.unique(iiii['Loca'])
-zmax = max(iiii['Depth_m'])
 
-def matplot_Tbar(locas,zmax):
-
-    fig,ax = plt.subplots(1,2, figsize=(9,7), dpi=300)
-
-    for i in range(len(locas)):
-        loca = locas[i]
-        ii = iiii['Loca'] == loca
-        jj = iiiii['Loca'] == loca
-        #
-        ax[0].plot(iiii.loc[ii,'Su_ksf'],iiii.loc[ii,'Depth_m'],'.',alpha=0.5,label=loca)
-        ax[0].set_xlabel('Su [ksf]')
-        ax[0].set_ylabel('Depth [m]')
-        ax[0].set_title('Tbar first push')
-        #
-        ax[1].plot(iiiii.loc[jj,'Su_ksf'],iiiii.loc[jj,'Depth_m'],'.',alpha=0.5,label=loca)
-        ax[1].set_xlabel('Su [ksf]')
-        ax[1].set_title('Tbar last push')
-        #
-        for k in range(2):
-            ax[k].set(ylim=(zmax+1,0))
-            ax[k].legend(loc='upper center', bbox_to_anchor=(0.5, 0), fancybox=True, shadow=False)
-            ax[k].grid(linestyle='dotted')
-            ax[k].minorticks_on()
-            ax[k].xaxis.set_ticks_position('top')
-            ax[k].xaxis.set_label_position('top')
-            ax[k].yaxis.grid(which="minor",linestyle='dotted')    
-        
-    st.pyplot(fig)
-    
-#matplot_Tbar(locas,zmax)
 
 
 
