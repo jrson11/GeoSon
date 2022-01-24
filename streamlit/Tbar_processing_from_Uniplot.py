@@ -76,15 +76,15 @@ for asc_file in iii:
     iiiiiii_last = iiiiiii.loc[ii&jj]
     iiiiiii_last.drop(columns=['test_type'], inplace=True)
     
-    iiiiiii_first.insert(iiiiiii_first.shape[1],'qT_kPa',iiiiiii_first['qT_MPa']*1000)
-    iiiiiii_first.insert(iiiiiii_first.shape[1],'Su_ksf',iiiiiii_first['qT_kPa']/iiiiiiiiiii)
-    iiiiiii_first['iiiiiiiiiii'] = iiiiiiiiiii
-    iiiiiii_last.insert(iiiiiii_last.shape[1],'qT_kPa',iiiiiii_last['qT_MPa']*1000)
-    iiiiiii_last.insert(iiiiiii_last.shape[1],'Su_ksf',iiiiiii_last['qT_kPa']/iiiiiiiiiiii)
-    iiiiiii_last['iiiiiiiiiiii'] = iiiiiiiiiiii
+    iiiiiiiiiiiiii.insert(iiiiiiiiiiiiii.shape[1],'qT_kPa',iiiiiiiiiiiiii['qT_MPa']*1000)
+    iiiiiiiiiiiiii.insert(iiiiiiiiiiiiii.shape[1],'Su_ksf',iiiiiiiiiiiiii['qT_kPa']/iiiiiiiiiii)
+    iiiiiiiiiiiiii['Nt_und'] = iiiiiiiiiii
+    iiiiiiiiiiiiiii.insert(iiiiiiiiiiiiiii.shape[1],'qT_kPa',iiiiiiiiiiiiiii['qT_MPa']*1000)
+    iiiiiiiiiiiiiii.insert(iiiiiiiiiiiiiii.shape[1],'Su_ksf',iiiiiiiiiiiiiii['qT_kPa']/iiiiiiiiiiii)
+    iiiiiiiiiiiiiii['Nt_rem'] = iiiiiiiiiiii
     
-    iiii = pd.concat([iiii,iiiiiii_first])    
-    iiiii = pd.concat([iiiii,iiiiiii_last])    
+    iiii = pd.concat([iiii,iiiiiiiiiiiiii])    
+    iiiii = pd.concat([iiiii,iiiiiiiiiiiiiii])    
     
 '''
 ## Resulting Tables
