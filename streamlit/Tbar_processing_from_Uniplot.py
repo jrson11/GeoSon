@@ -10,12 +10,9 @@ Author: J.Son, Ph.D., P.E. \n
 Last Update: 1/22/2021 \n
 '''
 
-# -- Create sidebar for plot controls
 st.sidebar.markdown('## Set Nt Parameters')
 Nt_und = st.sidebar.slider('Nt undisturbed', 5.0, 15.0, 10.5)  # min, max, default
 Nt_rem = st.sidebar.slider('Nt remolded', 5.0, 15.0, 10.5)  # min, max, default
-
-# -- Create upbar to import data
 asc_files = st.sidebar.file_uploader('Choose converted CSV files from Uniplot ASC', accept_multiple_files=True)
 n_asc = len(asc_files)
 #
@@ -23,7 +20,6 @@ n_asc = len(asc_files)
 ## Input files
 '''
 st.text('Number of ASC files: '+str(n_asc))
-
 
 # Memory allocation
 iiiiii = pd.DataFrame()
@@ -108,8 +104,6 @@ for asc_file in asc_files:
     
 
 
-
-
 ## -- Table
 '''
 ## Resulting Tables
@@ -121,13 +115,9 @@ st.dataframe(iiii)
 '''
 st.dataframe(iiiii)
 
-
-
-
 def convert_df(df):
      # IMPORTANT: Cache the conversion to prevent computation on every rerun
      return df.to_csv(index=False).encode('utf-8')
-
 
 csv_first = convert_df(iiii)
 csv_last = convert_df(iiiii)
