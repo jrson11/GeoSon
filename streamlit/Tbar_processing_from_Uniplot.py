@@ -97,42 +97,6 @@ for asc_file in asc_files:
     df_TBAR_first = pd.concat([df_TBAR_first,df_tbar_first])    
     df_TBAR_last = pd.concat([df_TBAR_last,df_tbar_last])    
     
-'''        
-## -- Plotting
-locas = np.unique(df_TBAR_first['Loca'])
-zmax = max(df_TBAR_first['Depth_m'])
-
-def plot_Tbar(locas,zmax):
-
-    fig,ax = plt.subplots(1,2, figsize=(9,7), dpi=300)
-
-    for i in range(len(locas)):
-        loca = locas[i]
-        ii = df_TBAR_first['Loca'] == loca
-        jj = df_TBAR_last['Loca'] == loca
-        #
-        ax[0].plot(df_TBAR_first.loc[ii,'Su_ksf'],df_TBAR_first.loc[ii,'Depth_m'],'.',alpha=0.5,label=loca)
-        ax[0].set_xlabel('Su [ksf]')
-        ax[0].set_ylabel('Depth [m]')
-        ax[0].set_title('Tbar first push')
-        #
-        ax[1].plot(df_TBAR_last.loc[jj,'Su_ksf'],df_TBAR_last.loc[jj,'Depth_m'],'.',alpha=0.5,label=loca)
-        ax[1].set_xlabel('Su [ksf]')
-        ax[1].set_title('Tbar last push')
-        #
-        for k in range(2):
-            ax[k].set(ylim=(zmax+1,0))
-            ax[k].legend(loc='upper center', bbox_to_anchor=(0.5, 0), fancybox=True, shadow=False)
-            ax[k].grid(linestyle='dotted')
-            ax[k].minorticks_on()
-            ax[k].xaxis.set_ticks_position('top')
-            ax[k].xaxis.set_label_position('top')
-            ax[k].yaxis.grid(which="minor",linestyle='dotted')    
-        
-    st.pyplot(fig)
-    
-plot_Tbar(locas,zmax)
-'''
 
 ## -- Table
 
