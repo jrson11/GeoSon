@@ -91,20 +91,20 @@ for asc_file in asc_files:
     #
     ii = df_tbar['cycle'] == max(df_tbar['cycle'])
     jj = df_tbar['test_type'] == 'push'
-    df_tbar_last = df_tbar.loc[ii&jj]
-    df_tbar_last.drop(columns=['test_type'], inplace=True)
+    iiiii = df_tbar.loc[ii&jj]
+    iiiii.drop(columns=['test_type'], inplace=True)
     
     # Calculate Su
     iiii.insert(iiii.shape[1],'qT_kPa',iiii['qT_MPa']*1000)
     iiii.insert(iiii.shape[1],'Su_ksf',iiii['qT_kPa']/Nt_und)
     iiii['Nt_und'] = Nt_und
-    df_tbar_last.insert(df_tbar_last.shape[1],'qT_kPa',df_tbar_last['qT_MPa']*1000)
-    df_tbar_last.insert(df_tbar_last.shape[1],'Su_ksf',df_tbar_last['qT_kPa']/Nt_rem)
-    df_tbar_last['Nt_rem'] = Nt_rem
+    iiiii.insert(iiiii.shape[1],'qT_kPa',iiiii['qT_MPa']*1000)
+    iiiii.insert(iiiii.shape[1],'Su_ksf',iiiii['qT_kPa']/Nt_rem)
+    iiiii['Nt_rem'] = Nt_rem
     
     # Combine all
     iiii = pd.concat([iiii,iiii])    
-    df_TBAR_last = pd.concat([df_TBAR_last,df_tbar_last])    
+    iiiii = pd.concat([iiiii,iiiii])    
     
         
 ## -- Plotting
@@ -118,14 +118,14 @@ def matplot_Tbar(locas,zmax):
     for i in range(len(locas)):
         loca = locas[i]
         ii = iiii['Loca'] == loca
-        jj = df_TBAR_last['Loca'] == loca
+        jj = iiiii['Loca'] == loca
         #
         ax[0].plot(iiii.loc[ii,'Su_ksf'],iiii.loc[ii,'Depth_m'],'.',alpha=0.5,label=loca)
         ax[0].set_xlabel('Su [ksf]')
         ax[0].set_ylabel('Depth [m]')
         ax[0].set_title('Tbar first push')
         #
-        ax[1].plot(df_TBAR_last.loc[jj,'Su_ksf'],df_TBAR_last.loc[jj,'Depth_m'],'.',alpha=0.5,label=loca)
+        ax[1].plot(iiiii.loc[jj,'Su_ksf'],iiiii.loc[jj,'Depth_m'],'.',alpha=0.5,label=loca)
         ax[1].set_xlabel('Su [ksf]')
         ax[1].set_title('Tbar last push')
         #
@@ -153,7 +153,7 @@ st.dataframe(iiii)
 '''
 #### Last push
 '''
-st.dataframe(df_TBAR_last)
+st.dataframe(iiiii)
 
 
 
@@ -164,7 +164,7 @@ def convert_df(df):
 
 
 csv_first = convert_df(iiii)
-csv_last = convert_df(df_TBAR_last)
+csv_last = convert_df(iiiii)
 
 st.sidebar.markdown('## Download the Processing Results')
 
