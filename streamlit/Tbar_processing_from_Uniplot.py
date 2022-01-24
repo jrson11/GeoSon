@@ -19,7 +19,7 @@ n_asc = len(asc_files)
 '''
 ## Input files
 '''
-st.text('Number of ASC files: '+str(n_asc))
+st.text('Number of input files: '+str(n_asc))
 
 # Memory allocation
 iiiiii = pd.DataFrame()
