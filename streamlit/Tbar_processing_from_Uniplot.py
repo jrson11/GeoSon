@@ -7,7 +7,7 @@ import streamlit as st
 # Geotechnics - Tbar processing
 Purpose: To extract the first & last Tbar push data from cycles in Uniplot file \n
 Author: J.Son, Ph.D., P.E. \n
-Last Update: 1/22/2021 \n
+Last Update: 1/23/2021 \n
 '''
 
 # -- Create sidebar for plot controls
