@@ -26,8 +26,8 @@ st.text('Number of ASC files: '+str(n_asc))
 
 
 # Memory allocation
-df_TBAR_first = pd.DataFrame()
-df_TBAR_last = pd.DataFrame()
+III1 = pd.DataFrame()
+III0 = pd.DataFrame()
 
 for asc_file in asc_files:
     
@@ -103,13 +103,13 @@ for asc_file in asc_files:
     df_tbar_last['Nt_rem'] = Nt_rem
     
     # Combine all
-    df_TBAR_first = pd.concat([df_TBAR_first,df_tbar_first])    
-    df_TBAR_last = pd.concat([df_TBAR_last,df_tbar_last])    
+    III1 = pd.concat([III1,df_tbar_first])    
+    III0 = pd.concat([III0,df_tbar_last])    
     
         
 ## -- Plotting
-locas = np.unique(df_TBAR_first['Loca'])
-zmax = max(df_TBAR_first['Depth_m'])
+locas = np.unique(III1['Loca'])
+zmax = max(III1['Depth_m'])
 
 def matplot_Tbar(locas,zmax):
 
@@ -117,15 +117,15 @@ def matplot_Tbar(locas,zmax):
 
     for i in range(len(locas)):
         loca = locas[i]
-        ii = df_TBAR_first['Loca'] == loca
-        jj = df_TBAR_last['Loca'] == loca
+        ii = III1['Loca'] == loca
+        jj = III0['Loca'] == loca
         #
-        ax[0].plot(df_TBAR_first.loc[ii,'Su_ksf'],df_TBAR_first.loc[ii,'Depth_m'],'.',alpha=0.5,label=loca)
+        ax[0].plot(III1.loc[ii,'Su_ksf'],III1.loc[ii,'Depth_m'],'.',alpha=0.5,label=loca)
         ax[0].set_xlabel('Su [ksf]')
         ax[0].set_ylabel('Depth [m]')
         ax[0].set_title('Tbar first push')
         #
-        ax[1].plot(df_TBAR_last.loc[jj,'Su_ksf'],df_TBAR_last.loc[jj,'Depth_m'],'.',alpha=0.5,label=loca)
+        ax[1].plot(III0.loc[jj,'Su_ksf'],III0.loc[jj,'Depth_m'],'.',alpha=0.5,label=loca)
         ax[1].set_xlabel('Su [ksf]')
         ax[1].set_title('Tbar last push')
         #
@@ -149,11 +149,11 @@ def matplot_Tbar(locas,zmax):
 ## Resulting Tables
 #### First push
 '''
-st.dataframe(df_TBAR_first)
+st.dataframe(III1)
 '''
 #### Last push
 '''
-st.dataframe(df_TBAR_last)
+st.dataframe(III0)
 
 
 
@@ -163,8 +163,8 @@ def convert_df(df):
      return df.to_csv(index=False).encode('utf-8')
 
 
-csv_first = convert_df(df_TBAR_first)
-csv_last = convert_df(df_TBAR_last)
+csv_first = convert_df(III1)
+csv_last = convert_df(III0)
 
 st.sidebar.markdown('## Download the Processing Results')
 
