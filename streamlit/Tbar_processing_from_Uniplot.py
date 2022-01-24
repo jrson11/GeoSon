@@ -29,20 +29,14 @@ for asc_file in asc_files:
     
     iiiiiiii = pd.read_csv(asc_file, skiprows=41, usecols=[0,1,2,3,4])
     cols = iiiiiiii.columns
-    #st.dataframe(iiiiiiii)
     
-    # If input file has more header, find 'No'
     ii = iiiiiiii[cols[0]] == 'No'
-    #st.dataframe(ii)
     idx = ii[ii].index.astype(int)[0]
-    #st.text(idx)
     iiiiiiiiiiii = iiiiiiii.loc[idx+1:,cols[0:5]]
     iiiiiiiiiiii.columns = ['Rec','Depth_m','Time_s','qT','qT_pull']
         
-    # Reset index
     iiiiiiiiiiii.reset_index(inplace=True)
     iiiiiiiiiiii.drop(columns='index', inplace=True)    
-    #st.dataframe(iiiiiiiiiiii)
     
     #
     iiiiiiiiiiii.loc[:,'Rec'] = pd.to_numeric(iiiiiiiiiiii.loc[:,'Rec'])
@@ -50,21 +44,17 @@ for asc_file in asc_files:
     iiiiiiiiiiii.loc[:,'Time_s'] = pd.to_numeric(iiiiiiiiiiii.loc[:,'Time_s'])
     iiiiiiiiiiii.loc[:,'qT'] = pd.to_numeric(iiiiiiiiiiii.loc[:,'qT'])
     iiiiiiiiiiii.loc[:,'qT_pull'] = pd.to_numeric(iiiiiiiiiiii.loc[:,'qT_pull'])
-    #st.dataframe(iiiiiiiiiiii)
     #
     iiiiiiiiiiii['qT_MPa'] = np.nan
     ii = iiiiiiiiiiii['qT'].isnull()
-    #st.dataframe(ii)
     iiiiiiiiiiii.loc[~ii,'qT_MPa'] = iiiiiiiiiiii.loc[~ii,'qT']
     ii = iiiiiiiiiiii['qT_pull'].isnull()
-    #st.dataframe(ii)
     iiiiiiiiiiii.loc[~ii,'qT_MPa'] = iiiiiiiiiiii.loc[~ii,'qT_pull']
     iiiiiiiiiiii.drop(columns=['qT','qT_pull'], inplace=True)
     
     if iiiiiiiiiiii.loc[0,'qT_MPa'] < 0:
         iiiiiiiiiiii.loc[0,'qT_MPa'] = 0
     
-    # Define push & pull to find cycles
     iiiiiiiiiiii['test_type'] = 'push'
     ii = iiiiiiiiiiii.loc[:,'qT_MPa'] < 0
     iiiiiiiiiiii.loc[ii,'test_type'] = 'pull'
@@ -74,12 +64,10 @@ for asc_file in asc_files:
     iiiiiiiiiiii['cycle'] = np.floor((iiiiiiiiiiii['diff_cumsum']-1)/2+1).astype(int)    
     iiiiiiiiiiii.drop(columns=['diff','diff_cumsum'], inplace=True)
     st.dataframe(iiiiiiiiiiii)
-    # Add location
     loca = asc_file.name.split()[0]
     st.text(loca)
     iiiiiiiiiiii.insert(0,'Loca',loca)
     
-    # Fine first and last push only
     ii = iiiiiiiiiiii['cycle'] == 1
     jj = iiiiiiiiiiii['test_type'] == 'push'
     iiii = iiiiiiiiiiii.loc[ii&jj]
@@ -90,7 +78,6 @@ for asc_file in asc_files:
     iiiii = iiiiiiiiiiii.loc[ii&jj]
     iiiii.drop(columns=['test_type'], inplace=True)
     
-    # Calculate Su
     iiii.insert(iiii.shape[1],'qT_kPa',iiii['qT_MPa']*1000)
     iiii.insert(iiii.shape[1],'Su_ksf',iiii['qT_kPa']/Nt_und)
     iiii['Nt_und'] = Nt_und
@@ -98,13 +85,11 @@ for asc_file in asc_files:
     iiiii.insert(iiiii.shape[1],'Su_ksf',iiiii['qT_kPa']/Nt_rem)
     iiiii['Nt_rem'] = Nt_rem
     
-    # Combine all
     iiii = pd.concat([iiii,iiii])    
     iiiii = pd.concat([iiiii,iiiii])    
     
 
 
-## -- Table
 '''
 ## Resulting Tables
 #### First push
@@ -116,7 +101,6 @@ st.dataframe(iiii)
 st.dataframe(iiiii)
 
 def convert_df(df):
-     # IMPORTANT: Cache the conversion to prevent computation on every rerun
      return df.to_csv(index=False).encode('utf-8')
 
 csv_first = convert_df(iiii)
