@@ -6,7 +6,7 @@ import streamlit as st
 # FUSAMI_ENG - Tbar processing
 Purpose: To extract the first & last Tbar push data from cycles in Uniplot file \n
 Author: J.Son, Ph.D., P.E. \n
-Last Update: 1/22/2021 \n
+Last Update: 1/24/2021 \n
 Note: I am so sorry for my bad coding script \n
 '''
 
