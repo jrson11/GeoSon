@@ -36,58 +36,58 @@ for asc_file in asc_files:
     #st.dataframe(ii)
     idx = ii[ii].index.astype(int)[0]
     #st.text(idx)
-    df_tbar = iiiiiiii.loc[idx+1:,cols[0:5]]
-    df_tbar.columns = ['Rec','Depth_m','Time_s','qT','qT_pull']
+    iiiiiiiiiiii = iiiiiiii.loc[idx+1:,cols[0:5]]
+    iiiiiiiiiiii.columns = ['Rec','Depth_m','Time_s','qT','qT_pull']
         
     # Reset index
-    df_tbar.reset_index(inplace=True)
-    df_tbar.drop(columns='index', inplace=True)    
-    #st.dataframe(df_tbar)
+    iiiiiiiiiiii.reset_index(inplace=True)
+    iiiiiiiiiiii.drop(columns='index', inplace=True)    
+    #st.dataframe(iiiiiiiiiiii)
     
     #
-    df_tbar.loc[:,'Rec'] = pd.to_numeric(df_tbar.loc[:,'Rec'])
-    df_tbar.loc[:,'Depth_m'] = pd.to_numeric(df_tbar.loc[:,'Depth_m'])
-    df_tbar.loc[:,'Time_s'] = pd.to_numeric(df_tbar.loc[:,'Time_s'])
-    df_tbar.loc[:,'qT'] = pd.to_numeric(df_tbar.loc[:,'qT'])
-    df_tbar.loc[:,'qT_pull'] = pd.to_numeric(df_tbar.loc[:,'qT_pull'])
-    #st.dataframe(df_tbar)
+    iiiiiiiiiiii.loc[:,'Rec'] = pd.to_numeric(iiiiiiiiiiii.loc[:,'Rec'])
+    iiiiiiiiiiii.loc[:,'Depth_m'] = pd.to_numeric(iiiiiiiiiiii.loc[:,'Depth_m'])
+    iiiiiiiiiiii.loc[:,'Time_s'] = pd.to_numeric(iiiiiiiiiiii.loc[:,'Time_s'])
+    iiiiiiiiiiii.loc[:,'qT'] = pd.to_numeric(iiiiiiiiiiii.loc[:,'qT'])
+    iiiiiiiiiiii.loc[:,'qT_pull'] = pd.to_numeric(iiiiiiiiiiii.loc[:,'qT_pull'])
+    #st.dataframe(iiiiiiiiiiii)
     #
-    df_tbar['qT_MPa'] = np.nan
-    ii = df_tbar['qT'].isnull()
+    iiiiiiiiiiii['qT_MPa'] = np.nan
+    ii = iiiiiiiiiiii['qT'].isnull()
     #st.dataframe(ii)
-    df_tbar.loc[~ii,'qT_MPa'] = df_tbar.loc[~ii,'qT']
-    ii = df_tbar['qT_pull'].isnull()
+    iiiiiiiiiiii.loc[~ii,'qT_MPa'] = iiiiiiiiiiii.loc[~ii,'qT']
+    ii = iiiiiiiiiiii['qT_pull'].isnull()
     #st.dataframe(ii)
-    df_tbar.loc[~ii,'qT_MPa'] = df_tbar.loc[~ii,'qT_pull']
-    df_tbar.drop(columns=['qT','qT_pull'], inplace=True)
+    iiiiiiiiiiii.loc[~ii,'qT_MPa'] = iiiiiiiiiiii.loc[~ii,'qT_pull']
+    iiiiiiiiiiii.drop(columns=['qT','qT_pull'], inplace=True)
     
-    if df_tbar.loc[0,'qT_MPa'] < 0:
-        df_tbar.loc[0,'qT_MPa'] = 0
+    if iiiiiiiiiiii.loc[0,'qT_MPa'] < 0:
+        iiiiiiiiiiii.loc[0,'qT_MPa'] = 0
     
     # Define push & pull to find cycles
-    df_tbar['test_type'] = 'push'
-    ii = df_tbar.loc[:,'qT_MPa'] < 0
-    df_tbar.loc[ii,'test_type'] = 'pull'
+    iiiiiiiiiiii['test_type'] = 'push'
+    ii = iiiiiiiiiiii.loc[:,'qT_MPa'] < 0
+    iiiiiiiiiiii.loc[ii,'test_type'] = 'pull'
     #
-    df_tbar['diff'] = (df_tbar.test_type != df_tbar.test_type.shift()).astype(int)
-    df_tbar['diff_cumsum'] = df_tbar['diff'].cumsum()
-    df_tbar['cycle'] = np.floor((df_tbar['diff_cumsum']-1)/2+1).astype(int)    
-    df_tbar.drop(columns=['diff','diff_cumsum'], inplace=True)
-    st.dataframe(df_tbar)
+    iiiiiiiiiiii['diff'] = (iiiiiiiiiiii.test_type != iiiiiiiiiiii.test_type.shift()).astype(int)
+    iiiiiiiiiiii['diff_cumsum'] = iiiiiiiiiiii['diff'].cumsum()
+    iiiiiiiiiiii['cycle'] = np.floor((iiiiiiiiiiii['diff_cumsum']-1)/2+1).astype(int)    
+    iiiiiiiiiiii.drop(columns=['diff','diff_cumsum'], inplace=True)
+    st.dataframe(iiiiiiiiiiii)
     # Add location
     loca = asc_file.name.split()[0]
     st.text(loca)
-    df_tbar.insert(0,'Loca',loca)
+    iiiiiiiiiiii.insert(0,'Loca',loca)
     
     # Fine first and last push only
-    ii = df_tbar['cycle'] == 1
-    jj = df_tbar['test_type'] == 'push'
-    iiii = df_tbar.loc[ii&jj]
+    ii = iiiiiiiiiiii['cycle'] == 1
+    jj = iiiiiiiiiiii['test_type'] == 'push'
+    iiii = iiiiiiiiiiii.loc[ii&jj]
     iiii.drop(columns=['test_type'], inplace=True)
     #
-    ii = df_tbar['cycle'] == max(df_tbar['cycle'])
-    jj = df_tbar['test_type'] == 'push'
-    iiiii = df_tbar.loc[ii&jj]
+    ii = iiiiiiiiiiii['cycle'] == max(iiiiiiiiiiii['cycle'])
+    jj = iiiiiiiiiiii['test_type'] == 'push'
+    iiiii = iiiiiiiiiiii.loc[ii&jj]
     iiiii.drop(columns=['test_type'], inplace=True)
     
     # Calculate Su
