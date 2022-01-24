@@ -91,9 +91,13 @@ for iiiiiiiiiiii in iiiiiiiiii:
 
 
 # Table
+'''
 ## First push
+'''
 st.dataframe(iii)
+'''
 ## LAst push
+'''
 st.dataframe(iiii)
 
 def convert_df(df):
