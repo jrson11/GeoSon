@@ -49,62 +49,62 @@ for asc_file in asc_files:
     #st.dataframe(df_tbar)
     
     #
-    iii.loc[:,'Rec'] = pd.to_numeric(iii.loc[:,'Rec'])
-    iii.loc[:,'Depth_m'] = pd.to_numeric(iii.loc[:,'Depth_m'])
-    iii.loc[:,'Time_s'] = pd.to_numeric(iii.loc[:,'Time_s'])
-    iii.loc[:,'qT'] = pd.to_numeric(iii.loc[:,'qT'])
-    iii.loc[:,'qT_pull'] = pd.to_numeric(iii.loc[:,'qT_pull'])
-    #st.dataframe(iii)
+    df_tbar.loc[:,'Rec'] = pd.to_numeric(df_tbar.loc[:,'Rec'])
+    df_tbar.loc[:,'Depth_m'] = pd.to_numeric(df_tbar.loc[:,'Depth_m'])
+    df_tbar.loc[:,'Time_s'] = pd.to_numeric(df_tbar.loc[:,'Time_s'])
+    df_tbar.loc[:,'qT'] = pd.to_numeric(df_tbar.loc[:,'qT'])
+    df_tbar.loc[:,'qT_pull'] = pd.to_numeric(df_tbar.loc[:,'qT_pull'])
+    #st.dataframe(df_tbar)
     #
-    iii['qT_MPa'] = np.nan
-    ii = iii['qT'].isnull()
+    df_tbar['qT_MPa'] = np.nan
+    ii = df_tbar['qT'].isnull()
     #st.dataframe(ii)
-    iii.loc[~ii,'qT_MPa'] = iii.loc[~ii,'qT']
-    ii = iii['qT_pull'].isnull()
+    df_tbar.loc[~ii,'qT_MPa'] = df_tbar.loc[~ii,'qT']
+    ii = df_tbar['qT_pull'].isnull()
     #st.dataframe(ii)
-    iii.loc[~ii,'qT_MPa'] = iii.loc[~ii,'qT_pull']
-    iii.drop(columns=['qT','qT_pull'], inplace=True)
+    df_tbar.loc[~ii,'qT_MPa'] = df_tbar.loc[~ii,'qT_pull']
+    df_tbar.drop(columns=['qT','qT_pull'], inplace=True)
     
-    if iii.loc[0,'qT_MPa'] < 0:
-        iii.loc[0,'qT_MPa'] = 0
+    if df_tbar.loc[0,'qT_MPa'] < 0:
+        df_tbar.loc[0,'qT_MPa'] = 0
     
     # Define push & pull to find cycles
-    iii['test_type'] = 'push'
-    ii = iii.loc[:,'qT_MPa'] < 0
-    iii.loc[ii,'test_type'] = 'pull'
+    df_tbar['test_type'] = 'push'
+    ii = df_tbar.loc[:,'qT_MPa'] < 0
+    df_tbar.loc[ii,'test_type'] = 'pull'
     #
-    iii['diff'] = (iii.test_type != iii.test_type.shift()).astype(int)
-    iii['diff_cumsum'] = iii['diff'].cumsum()
-    iii['cycle'] = np.floor((iii['diff_cumsum']-1)/2+1).astype(int)    
-    iii.drop(columns=['diff','diff_cumsum'], inplace=True)
-    st.dataframe(iii)
+    df_tbar['diff'] = (df_tbar.test_type != df_tbar.test_type.shift()).astype(int)
+    df_tbar['diff_cumsum'] = df_tbar['diff'].cumsum()
+    df_tbar['cycle'] = np.floor((df_tbar['diff_cumsum']-1)/2+1).astype(int)    
+    df_tbar.drop(columns=['diff','diff_cumsum'], inplace=True)
+    st.dataframe(df_tbar)
     # Add location
     loca = asc_file.name.split()[0]
     st.text(loca)
-    iii.insert(0,'Loca',loca)
+    df_tbar.insert(0,'Loca',loca)
     
     # Fine first and last push only
-    ii = iii['cycle'] == 1
-    jj = iii['test_type'] == 'push'
-    df_tbar_first = iii.loc[ii&jj]
+    ii = df_tbar['cycle'] == 1
+    jj = df_tbar['test_type'] == 'push'
+    df_tbar_first = df_tbar.loc[ii&jj]
     df_tbar_first.drop(columns=['test_type'], inplace=True)
     #
-    ii = iii['cycle'] == max(iii['cycle'])
-    jj = iii['test_type'] == 'push'
-    df_tbar_last = iii.loc[ii&jj]
+    ii = df_tbar['cycle'] == max(df_tbar['cycle'])
+    jj = df_tbar['test_type'] == 'push'
+    df_tbar_last = df_tbar.loc[ii&jj]
     df_tbar_last.drop(columns=['test_type'], inplace=True)
     
     # Calculate Su
-    df_tbar_first.insert(df_tbar_first.shape[1],'qT_kPa',df_tbar_first['qT_MPa']*1000)
-    df_tbar_first.insert(df_tbar_first.shape[1],'Su_ksf',df_tbar_first['qT_kPa']/Nt_und)
-    df_tbar_first['Nt_und'] = Nt_und
-    df_tbar_last.insert(df_tbar_last.shape[1],'qT_kPa',df_tbar_last['qT_MPa']*1000)
-    df_tbar_last.insert(df_tbar_last.shape[1],'Su_ksf',df_tbar_last['qT_kPa']/Nt_rem)
-    df_tbar_last['Nt_rem'] = Nt_rem
+    iii1.insert(iii1.shape[1],'qT_kPa',iii1['qT_MPa']*1000)
+    iii1.insert(iii1.shape[1],'Su_ksf',iii1['qT_kPa']/Nt_und)
+    iii1['Nt_und'] = Nt_und
+    iii0.insert(iii0.shape[1],'qT_kPa',iii0['qT_MPa']*1000)
+    iii0.insert(iii0.shape[1],'Su_ksf',iii0['qT_kPa']/Nt_rem)
+    iii0['Nt_rem'] = Nt_rem
     
     # Combine all
-    III1 = pd.concat([III1,df_tbar_first])    
-    III0 = pd.concat([III0,df_tbar_last])    
+    III1 = pd.concat([III1,iii1])    
+    III0 = pd.concat([III0,iii0])    
     
         
 ## -- Plotting
