@@ -49,49 +49,49 @@ for asc_file in asc_files:
     #st.dataframe(df_tbar)
     
     #
-    iiii.loc[:,'Rec'] = pd.to_numeric(iiii.loc[:,'Rec'])
-    iiii.loc[:,'Depth_m'] = pd.to_numeric(iiii.loc[:,'Depth_m'])
-    iiii.loc[:,'Time_s'] = pd.to_numeric(iiii.loc[:,'Time_s'])
-    iiii.loc[:,'qT'] = pd.to_numeric(iiii.loc[:,'qT'])
-    iiii.loc[:,'qT_pull'] = pd.to_numeric(iiii.loc[:,'qT_pull'])
-    #st.dataframe(iiii)
+    df_tbar.loc[:,'Rec'] = pd.to_numeric(df_tbar.loc[:,'Rec'])
+    df_tbar.loc[:,'Depth_m'] = pd.to_numeric(df_tbar.loc[:,'Depth_m'])
+    df_tbar.loc[:,'Time_s'] = pd.to_numeric(df_tbar.loc[:,'Time_s'])
+    df_tbar.loc[:,'qT'] = pd.to_numeric(df_tbar.loc[:,'qT'])
+    df_tbar.loc[:,'qT_pull'] = pd.to_numeric(df_tbar.loc[:,'qT_pull'])
+    #st.dataframe(df_tbar)
     #
-    iiii['qT_MPa'] = np.nan
-    ii = iiii['qT'].isnull()
+    df_tbar['qT_MPa'] = np.nan
+    ii = df_tbar['qT'].isnull()
     #st.dataframe(ii)
-    iiii.loc[~ii,'qT_MPa'] = iiii.loc[~ii,'qT']
-    ii = iiii['qT_pull'].isnull()
+    df_tbar.loc[~ii,'qT_MPa'] = df_tbar.loc[~ii,'qT']
+    ii = df_tbar['qT_pull'].isnull()
     #st.dataframe(ii)
-    iiii.loc[~ii,'qT_MPa'] = iiii.loc[~ii,'qT_pull']
-    iiii.drop(columns=['qT','qT_pull'], inplace=True)
+    df_tbar.loc[~ii,'qT_MPa'] = df_tbar.loc[~ii,'qT_pull']
+    df_tbar.drop(columns=['qT','qT_pull'], inplace=True)
     
-    if iiii.loc[0,'qT_MPa'] < 0:
-        iiii.loc[0,'qT_MPa'] = 0
+    if df_tbar.loc[0,'qT_MPa'] < 0:
+        df_tbar.loc[0,'qT_MPa'] = 0
     
     # Define push & pull to find cycles
-    iiii['test_type'] = 'push'
-    ii = iiii.loc[:,'qT_MPa'] < 0
-    iiii.loc[ii,'test_type'] = 'pull'
+    df_tbar['test_type'] = 'push'
+    ii = df_tbar.loc[:,'qT_MPa'] < 0
+    df_tbar.loc[ii,'test_type'] = 'pull'
     #
-    iiii['diff'] = (iiii.test_type != iiii.test_type.shift()).astype(int)
-    iiii['diff_cumsum'] = iiii['diff'].cumsum()
-    iiii['cycle'] = np.floor((iiii['diff_cumsum']-1)/2+1).astype(int)    
-    iiii.drop(columns=['diff','diff_cumsum'], inplace=True)
-    st.dataframe(iiii)
+    df_tbar['diff'] = (df_tbar.test_type != df_tbar.test_type.shift()).astype(int)
+    df_tbar['diff_cumsum'] = df_tbar['diff'].cumsum()
+    df_tbar['cycle'] = np.floor((df_tbar['diff_cumsum']-1)/2+1).astype(int)    
+    df_tbar.drop(columns=['diff','diff_cumsum'], inplace=True)
+    st.dataframe(df_tbar)
     # Add location
     loca = asc_file.name.split()[0]
     st.text(loca)
-    iiii.insert(0,'Loca',loca)
+    df_tbar.insert(0,'Loca',loca)
     
     # Fine first and last push only
-    ii = iiii['cycle'] == 1
-    jj = iiii['test_type'] == 'push'
-    df_tbar_first = iiii.loc[ii&jj]
+    ii = df_tbar['cycle'] == 1
+    jj = df_tbar['test_type'] == 'push'
+    df_tbar_first = df_tbar.loc[ii&jj]
     df_tbar_first.drop(columns=['test_type'], inplace=True)
     #
-    ii = iiii['cycle'] == max(iiii['cycle'])
-    jj = iiii['test_type'] == 'push'
-    df_tbar_last = iiii.loc[ii&jj]
+    ii = df_tbar['cycle'] == max(df_tbar['cycle'])
+    jj = df_tbar['test_type'] == 'push'
+    df_tbar_last = df_tbar.loc[ii&jj]
     df_tbar_last.drop(columns=['test_type'], inplace=True)
     
     # Calculate Su
