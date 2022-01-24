@@ -89,14 +89,14 @@ for iiiiiiiiiiii in iiiiiiiiii:
     
         
 
-
-# Table
 '''
-## First push
+# Resulting Tables
+
+### First Push
 '''
 st.dataframe(iii)
 '''
-## LAst push
+### Last Push
 '''
 st.dataframe(iiii)
 
