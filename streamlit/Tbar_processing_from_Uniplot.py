@@ -18,7 +18,10 @@ Nt_rem = st.sidebar.slider('Nt remolded', 5.0, 15.0, 10.5)  # min, max, default
 iiiiiiiiii = st.sidebar.file_uploader('Choose converted CSV files from Uniplot ASC', accept_multiple_files=True)
 iiiiiiiiiii = len(iiiiiiiiii)
 #
-st.text('Number of ASC files: '+str(iiiiiiiiiii))
+'''
+## Input files
+'''
+st.text('Number of imported CSV files: '+str(iiiiiiiiiii))
 
 def dfTbarfromUniplotCSV(Nt_und,Nt_rem):
     return 0
