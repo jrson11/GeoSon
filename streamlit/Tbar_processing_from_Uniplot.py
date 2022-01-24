@@ -54,7 +54,7 @@ for iiiiiiiiiiii in iiiiiiiiii:
     ii = iiiiii['qT'].isnull()
     iiiiii.loc[~ii,'qT_MPa'] = iiiiii.loc[~ii,'qT']
     ii = iiiiii['qT_pull'].isnull()
-    iiiiii.loc[~ii,'qT_MPa'] = iiiiii.loc[~ii,'qT']
+    iiiiii.loc[~ii,'qT_MPa'] = iiiiii.loc[~ii,'qT_pull']
     iiiiii.drop(columns=['qT','qT_pull'], inplace=True)
     
     iiiiii['test_type'] = 'push'
