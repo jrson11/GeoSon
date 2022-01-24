@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+#import matplotlib.pyplot as plt
 import streamlit as st
 
 '''
@@ -9,107 +10,174 @@ Author: J.Son, Ph.D., P.E. \n
 Last Update: 1/22/2021 \n
 '''
 
-# Create sidebar for plot controls
+# -- Create sidebar for plot controls
 st.sidebar.markdown('## Set Nt Parameters')
 Nt_und = st.sidebar.slider('Nt undisturbed', 5.0, 15.0, 10.5)  # min, max, default
 Nt_rem = st.sidebar.slider('Nt remolded', 5.0, 15.0, 10.5)  # min, max, default
 
-# Create upbar to import data
-iiiiiiiiii = st.sidebar.file_uploader('Choose converted CSV files from Uniplot ASC', accept_multiple_files=True)
-iiiiiiiiiii = len(iiiiiiiiii)
+# -- Create upbar to import data
+asc_files = st.sidebar.file_uploader('Choose converted CSV files from Uniplot ASC', accept_multiple_files=True)
+n_asc = len(asc_files)
 #
-st.text('Number of ASC files: '+str(iiiiiiiiiii))
+'''
+## Input files
+'''
+st.text('Number of ASC files: '+str(n_asc))
 
 
 # Memory allocation
-iii = pd.DataFrame()
-iiii = pd.DataFrame()
+df_TBAR_first = pd.DataFrame()
+df_TBAR_last = pd.DataFrame()
 
-# Processing
-for iiiiiiiiiiii in iiiiiiiiii:
+for asc_file in asc_files:
     
-    iiiii = pd.read_csv(iiiiiiiiiiii, skiprows=41)
-    cols = iiiii.columns
+    df_asc = pd.read_csv(asc_file, skiprows=41, usecols=[0,1,2,3,4])
+    cols = df_asc.columns
+    #st.dataframe(df_asc)
     
-    ii = iiiii[cols[0]] == 'No'
+    # If input file has more header, find 'No'
+    ii = df_asc[cols[0]] == 'No'
+    #st.dataframe(ii)
     idx = ii[ii].index.astype(int)[0]
-    iiiiii = iiiii.loc[idx+1:,cols[0:5]]
-    iiiiii.columns = ['Rec','Depth_m','Time_s','qT','qT_pull']
+    #st.text(idx)
+    df_tbar = df_asc.loc[idx+1:,cols[0:5]]
+    df_tbar.columns = ['Rec','Depth_m','Time_s','qT','qT_pull']
         
-    iiiiii.reset_index(inplace=True)
-    iiiiii.drop(columns='index', inplace=True)    
+    # Reset index
+    df_tbar.reset_index(inplace=True)
+    df_tbar.drop(columns='index', inplace=True)    
+    #st.dataframe(df_tbar)
     
-    iiiiii.loc[:,'Rec'] = pd.to_numeric(iiiiii.loc[:,'Rec'])
-    iiiiii.loc[:,'Depth_m'] = pd.to_numeric(iiiiii.loc[:,'Depth_m'])
-    iiiiii.loc[:,'Time_s'] = pd.to_numeric(iiiiii.loc[:,'Time_s'])
-    iiiiii.loc[:,'qT'] = pd.to_numeric(iiiiii.loc[:,'qT'])
-    iiiiii.loc[:,'qT_pull'] = pd.to_numeric(iiiiii.loc[:,'qT_pull'])
     #
-    iiiiii['qT_MPa'] = np.nan
-    ii = iiiiii['qT'].isnull()
-    iiiiii.loc[~ii,'qT_MPa'] = iiiiii.loc[~ii,'qT']
-    ii = iiiiii['qT_pull'].isnull()
-    iiiiii.loc[~ii,'qT_MPa'] = iiiiii.loc[~ii,'qT_pull']
-    iiiiii.drop(columns=['qT','qT_pull'], inplace=True)
-    
-    iiiiii['test_type'] = 'push'
-    ii = iiiiii.loc[:,'qT_MPa'] < 0
-    iiiiii.loc[ii,'test_type'] = 'pull'
+    df_tbar.loc[:,'Rec'] = pd.to_numeric(df_tbar.loc[:,'Rec'])
+    df_tbar.loc[:,'Depth_m'] = pd.to_numeric(df_tbar.loc[:,'Depth_m'])
+    df_tbar.loc[:,'Time_s'] = pd.to_numeric(df_tbar.loc[:,'Time_s'])
+    df_tbar.loc[:,'qT'] = pd.to_numeric(df_tbar.loc[:,'qT'])
+    df_tbar.loc[:,'qT_pull'] = pd.to_numeric(df_tbar.loc[:,'qT_pull'])
+    #st.dataframe(df_tbar)
     #
-    iiiiii['diff'] = (iiiiii.test_type != iiiiii.test_type.shift()).astype(int)
-    iiiiii['diff_cumsum'] = iiiiii['diff'].cumsum()
-    iiiiii['cycle'] = np.floor((iiiiii['diff_cumsum']-1)/2+1).astype(int)    
-    iiiiii.drop(columns=['diff','diff_cumsum'], inplace=True)
+    df_tbar['qT_MPa'] = np.nan
+    ii = df_tbar['qT'].isnull()
+    #st.dataframe(ii)
+    df_tbar.loc[~ii,'qT_MPa'] = df_tbar.loc[~ii,'qT']
+    ii = df_tbar['qT_pull'].isnull()
+    #st.dataframe(ii)
+    df_tbar.loc[~ii,'qT_MPa'] = df_tbar.loc[~ii,'qT_pull']
+    df_tbar.drop(columns=['qT','qT_pull'], inplace=True)
     
-    iiiiiii = iiiiiiiiiiii.name.split()[0]
-    st.text(iiiiiii)
-    iiiiii.insert(0,'Loca',iiiiiii)
+    if df_tbar.loc[0,'qT_MPa'] < 0:
+        df_tbar.loc[0,'qT_MPa'] = 0
     
-    ii = iiiiii['cycle'] == 1
-    jj = iiiiii['test_type'] == 'push'
-    iiiiii_first = iiiiii.loc[ii&jj]
-    iiiiii_first.drop(columns=['test_type'], inplace=True)
+    # Define push & pull to find cycles
+    df_tbar['test_type'] = 'push'
+    ii = df_tbar.loc[:,'qT_MPa'] < 0
+    df_tbar.loc[ii,'test_type'] = 'pull'
     #
-    ii = iiiiii['cycle'] == max(iiiiii['cycle'])
-    jj = iiiiii['test_type'] == 'push'
-    iiiiii_last = iiiiii.loc[ii&jj]
-    iiiiii_last.drop(columns=['test_type'], inplace=True)
+    df_tbar['diff'] = (df_tbar.test_type != df_tbar.test_type.shift()).astype(int)
+    df_tbar['diff_cumsum'] = df_tbar['diff'].cumsum()
+    df_tbar['cycle'] = np.floor((df_tbar['diff_cumsum']-1)/2+1).astype(int)    
+    df_tbar.drop(columns=['diff','diff_cumsum'], inplace=True)
+    st.dataframe(df_tbar)
+    # Add location
+    loca = asc_file.name.split()[0]
+    st.text(loca)
+    df_tbar.insert(0,'Loca',loca)
     
-    iiiiii_first.insert(iiiiii_first.shape[1],'qT_kPa',iiiiii_first['qT_MPa']*1000)
-    iiiiii_first.insert(iiiiii_first.shape[1],'Su_ksf',iiiiii_first['qT_kPa']/Nt_und)
-    iiiiii_first['Nt_und'] = Nt_und
-    iiiiii_last.insert(iiiiii_last.shape[1],'qT_kPa',iiiiii_last['qT_MPa']*1000)
-    iiiiii_last.insert(iiiiii_last.shape[1],'Su_ksf',iiiiii_last['qT_kPa']/Nt_rem)
-    iiiiii_last['Nt_rem'] = Nt_rem
+    # Fine first and last push only
+    ii = df_tbar['cycle'] == 1
+    jj = df_tbar['test_type'] == 'push'
+    df_tbar_first = df_tbar.loc[ii&jj]
+    df_tbar_first.drop(columns=['test_type'], inplace=True)
+    #
+    ii = df_tbar['cycle'] == max(df_tbar['cycle'])
+    jj = df_tbar['test_type'] == 'push'
+    df_tbar_last = df_tbar.loc[ii&jj]
+    df_tbar_last.drop(columns=['test_type'], inplace=True)
     
-    iii = pd.concat([iii,iiiiii_first])    
-    iiii = pd.concat([iiii,iiiiii_last])    
+    # Calculate Su
+    df_tbar_first.insert(df_tbar_first.shape[1],'qT_kPa',df_tbar_first['qT_MPa']*1000)
+    df_tbar_first.insert(df_tbar_first.shape[1],'Su_ksf',df_tbar_first['qT_kPa']/Nt_und)
+    df_tbar_first['Nt_und'] = Nt_und
+    df_tbar_last.insert(df_tbar_last.shape[1],'qT_kPa',df_tbar_last['qT_MPa']*1000)
+    df_tbar_last.insert(df_tbar_last.shape[1],'Su_ksf',df_tbar_last['qT_kPa']/Nt_rem)
+    df_tbar_last['Nt_rem'] = Nt_rem
+    
+    # Combine all
+    df_TBAR_first = pd.concat([df_TBAR_first,df_tbar_first])    
+    df_TBAR_last = pd.concat([df_TBAR_last,df_tbar_last])    
     
         
+## -- Plotting
+locas = np.unique(df_TBAR_first['Loca'])
+zmax = max(df_TBAR_first['Depth_m'])
+
+def matplot_Tbar(locas,zmax):
+
+    fig,ax = plt.subplots(1,2, figsize=(9,7), dpi=300)
+
+    for i in range(len(locas)):
+        loca = locas[i]
+        ii = df_TBAR_first['Loca'] == loca
+        jj = df_TBAR_last['Loca'] == loca
+        #
+        ax[0].plot(df_TBAR_first.loc[ii,'Su_ksf'],df_TBAR_first.loc[ii,'Depth_m'],'.',alpha=0.5,label=loca)
+        ax[0].set_xlabel('Su [ksf]')
+        ax[0].set_ylabel('Depth [m]')
+        ax[0].set_title('Tbar first push')
+        #
+        ax[1].plot(df_TBAR_last.loc[jj,'Su_ksf'],df_TBAR_last.loc[jj,'Depth_m'],'.',alpha=0.5,label=loca)
+        ax[1].set_xlabel('Su [ksf]')
+        ax[1].set_title('Tbar last push')
+        #
+        for k in range(2):
+            ax[k].set(ylim=(zmax+1,0))
+            ax[k].legend(loc='upper center', bbox_to_anchor=(0.5, 0), fancybox=True, shadow=False)
+            ax[k].grid(linestyle='dotted')
+            ax[k].minorticks_on()
+            ax[k].xaxis.set_ticks_position('top')
+            ax[k].xaxis.set_label_position('top')
+            ax[k].yaxis.grid(which="minor",linestyle='dotted')    
+        
+    st.pyplot(fig)
+    
+#matplot_Tbar(locas,zmax)
 
 
-# Table
-st.dataframe(iii)
-st.dataframe(iiii)
+
+## -- Table
+'''
+## Resulting Tables
+#### First push
+'''
+st.dataframe(df_TBAR_first)
+'''
+#### Last push
+'''
+st.dataframe(df_TBAR_last)
+
+
+
 
 def convert_df(df):
+     # IMPORTANT: Cache the conversion to prevent computation on every rerun
      return df.to_csv(index=False).encode('utf-8')
 
-iiiiiiii = convert_df(iii)
-iiiiiiiii = convert_df(iiii)
+
+csv_first = convert_df(df_TBAR_first)
+csv_last = convert_df(df_TBAR_last)
 
 st.sidebar.markdown('## Download the Processing Results')
 
 st.sidebar.download_button(
      label="Download Tbar_first_push as CSV",
-     data=iiiiiiii,
+     data=csv_first,
      file_name='Tbar_first_push.csv',
      mime='text/csv',
  )
 #
 st.sidebar.download_button(
      label="Download Tbar_last_push as CSV",
-     data=iiiiiiiii,
+     data=csv_last,
      file_name='Tbar_last_push.csv',
      mime='text/csv',
  )
