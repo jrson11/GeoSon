@@ -8,6 +8,7 @@ import streamlit as st
 Purpose: To extract the first & last Tbar push data from cycles in Uniplot file \n
 Author: J.Son, Ph.D., P.E. \n
 Last Update: 1/22/2021 \n
+Note: I am so sorry for my immature coding script \n
 '''
 
 st.sidebar.markdown('## Set Nt Parameters')
@@ -29,15 +30,14 @@ for asc_file in asc_files:
     
     iiiiiiii = pd.read_csv(asc_file, skiprows=41, usecols=[0,1,2,3,4])
     cols = iiiiiiii.columns
-    
+    #
     ii = iiiiiiii[cols[0]] == 'No'
     idx = ii[ii].index.astype(int)[0]
     iiiiiiiiiiii = iiiiiiii.loc[idx+1:,cols[0:5]]
     iiiiiiiiiiii.columns = ['Rec','Depth_m','Time_s','qT','qT_pull']
-        
+    #    
     iiiiiiiiiiii.reset_index(inplace=True)
     iiiiiiiiiiii.drop(columns='index', inplace=True)    
-    
     #
     iiiiiiiiiiii.loc[:,'Rec'] = pd.to_numeric(iiiiiiiiiiii.loc[:,'Rec'])
     iiiiiiiiiiii.loc[:,'Depth_m'] = pd.to_numeric(iiiiiiiiiiii.loc[:,'Depth_m'])
@@ -87,8 +87,6 @@ for asc_file in asc_files:
     
     iiii = pd.concat([iiii,iiii])    
     iiiii = pd.concat([iiiii,iiiii])    
-    
-
 
 '''
 ## Resulting Tables
