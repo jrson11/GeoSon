@@ -5,6 +5,30 @@ GeoSon_Foundation
 ==================
 
 
+MonoTower
+---------
+
+- Monopile
+- Mono bucket
+- (Single) Gravity base structure
+
+
+Jacket/Tripod
+-------------
+
+- Driven steel pile
+- Suction caisson
+- (Tetra) Gravity base structure
+
+
+Primiary Installation Analysis
+-------------------------------
+
+Details in Private Repository
+------------------------------
+
+https://github.com/jrson11/FUSAMI/blob/main/docs/handbook_for_Foundation.rst
+
 References
 ----------
 - Webinar (10-02-2019): Data-Driven Geo-Solutions for Efficient Offshore Wind Foundations - https://www.ice.org.uk/eventarchive/data-driven-heo-solution-offshore-wind-foundations
