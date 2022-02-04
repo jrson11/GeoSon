@@ -31,6 +31,10 @@ Acoustic impedance inversion
 
 08. Uncertainty Quantification
 
+Details in Private Repository
+------------------------------
+
+https://github.com/jrson11/FUSAMI/blob/main/docs/handbook_for_Inversion.rst
 
 References
 ----------
