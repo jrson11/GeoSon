@@ -7,27 +7,29 @@ Integrated Offshore Geophysics and Geotechnical Engineering (Ditigal Handbook wi
    :maxdepth: 1
    :caption: Geophysics
    
-   GeoSon_Kingdom <./handbook_for_Kingdom>
-   GeoSon_Inversion <./handbook_for_Inversion>
-   GeoSon_Integration <./handbook_for_Integration>
+   Kingdom <./handbook_for_Kingdom>
+   Inversion <./handbook_for_Inversion>
+   Integration <./handbook_for_Integration>
 
 .. toctree::
    :maxdepth: 1
    :caption: Geotechnics
    
-   GeoSon_CPT<./handbook_for_CPT>
-   GeoSon_SoilTest <./handbook_for_SoilTest>
-   GeoSon_Slope <./handbook_for_Slope>
-   GeoSon_Foundation <./handbook_for_Foundation>
+   CPT<./handbook_for_CPT>
+   SoilTest <./handbook_for_SoilTest>
+   Slope <./handbook_for_Slope>
+   Foundation <./handbook_for_Foundation>
+   GeoSoftware <./handbook_for_GeoSoftware>
+
 
 .. toctree::
    :maxdepth: 1
    :caption: Data Science
    
-   GeoSon_MCMC<./handbook_for_MCMC>
-   GeoSon_Bayesian<./handbook_for_Bayes>
-   GeoSon_ML<./handbook_for_ML>
-   GeoSon_STAT<./handbook_for_STAT>
+   MCMC<./handbook_for_MCMC>
+   Bayesian<./handbook_for_Bayes>
+   MachineLing<./handbook_for_ML>
+   STAT<./handbook_for_STAT>
 
 .. toctree::
    :maxdepth: 1
