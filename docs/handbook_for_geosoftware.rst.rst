@@ -18,7 +18,7 @@ Commercial software
 
 02. Plaxis (Bentley)
 
-02. SlopeW (GeoStudio)
+03. SlopeW (GeoStudio)
 
 
 Confidential software
