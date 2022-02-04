@@ -1,10 +1,35 @@
+**Contents will be in private repository, Not ready yet**
 
 
+GeoSon_geosoftware
+==================
 
-- gINT (Bentley)
-- Gaia Topaz (Fugro)
-- GeODin (Fugro)
-- GeoVisual (Fugro)
+Open software
+--------------
+
+01. Open
+
+02. Open
+
+
+Commercial software
+--------------------------
+01. gINT (Bentley)
+
+02. Plaxis (Bentley)
+
+02. SlopeW (GeoStudio)
+
+
+Confidential software
+--------------------------
+
+01. Gaia Topaz (Fugro)
+
+02. GeODin (Fugro)
+
+03. GeoVisual (Fugro)
+
 
 
 Details in Private Repository
