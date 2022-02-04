@@ -38,3 +38,9 @@ Others
 11. RC - https://www.geotechdata.info/geotest/resonant-column-test
 
 12. RS - https://www.youtube.com/watch?v=R9vTsrE8bSA
+
+
+Details in Private Repository
+-----------------------------
+
+https://github.com/jrson11/FUSAMI/blob/main/docs/handbook_for_SoilTest.rst
