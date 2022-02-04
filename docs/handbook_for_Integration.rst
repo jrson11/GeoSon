@@ -32,6 +32,12 @@ Statistics
 
 09. Uncertainty quantification
 
+Details in Private Repository
+------------------------------
+
+https://github.com/jrson11/FUSAMI/blob/main/docs/handbook_for_Integration.rst
+
+
 References
 -----------
 SUT Webinar (06-12-2020): Integrating geoscience data to build effective ground models for large wind farm sites - https://www.youtube.com/watch?v=dFVUg2zGBwI
