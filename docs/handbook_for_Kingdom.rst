@@ -16,6 +16,10 @@ Converting Engineering data into Kingdom inputs
 04. Kingdom inputs from MSCL
 
 
+Details in Private Repository
+------------------------------
+
+https://github.com/jrson11/FUSAMI/blob/main/docs/handbook_for_Kingdom.rst
 
 Reference 
 ---------
