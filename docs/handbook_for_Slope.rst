@@ -33,6 +33,10 @@ Marine Case Studies
 
 08. Probabilistic analysis
 
+Details in Private Repository
+------------------------------
+
+https://github.com/jrson11/FUSAMI/blob/main/docs/handbook_for_Slope.rst
 
 Reference
 ---------
