@@ -43,7 +43,7 @@ st.sidebar.download_button(
      mime='text/csv',
  )
 
-HtmlFile = open(“google.html”, ‘r’, encoding=‘utf-8’)
+HtmlFile = open(“./google.html”, ‘r’, encoding=‘utf-8’)
 source_code = HtmlFile.read()
 print(source_code)
 st.components.html(source_code, height=600)
