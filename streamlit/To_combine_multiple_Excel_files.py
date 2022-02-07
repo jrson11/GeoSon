@@ -22,7 +22,10 @@ iiiiii = st.sidebar.selectbox('Number of header lines to skip',[0,1,2,3,4,5,6,7,
 iiiii = pd.DataFrame()
 for input_file in iii:
     st.text(input_file.name)
-    iiii = pd.read_excel(input_file, header=iiiiii)
+    if t_data == 'xlsx' or 'xls':
+        iiii = pd.read_excel(input_file, header=iiiiii)
+    elif t_data == 'csv':
+        iiii = pd.read_csv(input_file, header=iiiiii)
     iiii.insert(0,'File',input_file.name)
     iiiii = pd.concat([iiiii,iiii.loc[1:,:]])    
 
