@@ -30,6 +30,7 @@ Integrated Offshore Geophysics and Geotechnical Engineering (Ditigal Handbook wi
    Bayesian<./handbook_for_Bayes>
    MachineLearning<./handbook_for_ML>
    STAT<./handbook_for_STAT>
+   ExcelAutomation<./handbook_for_ExcelAuto>
 
 .. toctree::
    :maxdepth: 1
