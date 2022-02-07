@@ -3,7 +3,7 @@
 
 GeoSon_SoilTest
 ==================
-- Python package for geotechnical lab tests data processing
+- References of Standard & Advanced Geotechnical Soil Lab Tests
 
 
 Consolidation tests
