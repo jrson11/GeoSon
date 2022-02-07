@@ -35,7 +35,7 @@ def convert_df(df):
 
 csv_result = convert_df(iiiii)
 
-st.sidebar.markdown('## Download the output result')
+st.sidebar.markdown('## Output')
 
 st.sidebar.download_button(
      label="Download result table",
