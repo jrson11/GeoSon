@@ -1,7 +1,7 @@
 import pandas as pd
 import streamlit as st
 
-st.markdown('## To combine multiple Excel files')
+st.markdown('## To combine multiple Excel files into one file')
 
 st.sidebar.markdown('## Input')
 t_data = st.sidebar.selectbox('Type of input data file',['xlsx','xls','csv'])
@@ -38,7 +38,7 @@ csv_result = convert_df(iiiii)
 st.sidebar.markdown('## Download the output result')
 
 st.sidebar.download_button(
-     label="Click to download result table",
+     label="Download result table",
      data=csv_result,
      file_name='all_data.csv',
      mime='text/csv',
