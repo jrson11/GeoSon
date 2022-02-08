@@ -41,12 +41,14 @@ Engineering parameters from CPT
 
 14. qnet and Su with Nkt for CLAY
 
-    - qnet from Soil Unit
-    - Nkt analysis
-    - Statistical anaysis for Nkt
+    - qnet
+    - Nkt
+    - Statistics
 
 15. Vs and Gmax for SAND/CLAY
 
+    - Vs
+    - Gmax
 
 Details in Private Repository
 -----------------------------
