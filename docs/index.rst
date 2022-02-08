@@ -26,10 +26,10 @@ Integrated Offshore Geophysics and Geotechnical Engineering (Ditigal Handbook wi
    :maxdepth: 1
    :caption: Data Science
    
+   STAT<./handbook_for_STAT>
    MCMC<./handbook_for_MCMC>
    Bayesian<./handbook_for_Bayes>
    MachineLearning<./handbook_for_ML>
-   STAT<./handbook_for_STAT>
 
 
 .. toctree::
