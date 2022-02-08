@@ -31,7 +31,8 @@ Engineering parameters from CPT
 
 
 13. Dr and Friction angle for SAND
-
+    - Dr
+    - phi
 
 14. qnet and Su with Nkt for CLAY
 
