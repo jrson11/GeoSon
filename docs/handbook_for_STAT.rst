@@ -3,3 +3,14 @@
 GeoSon_STAT
 ==================
 - Statistical analysis
+
+
+1st order statistics
+---------------------
+
+2nd order statistics
+---------------------
+
+Correlation 
+------------
+
