@@ -39,9 +39,9 @@ Engineering parameters from CPT
     - Dr
     - phi
 
-14. qnet and Su with Nkt for CLAY
+14. Qnet and Su with Nkt for CLAY
 
-    - qnet
+    - Qnet
     - Nkt
     - Statistics
 
