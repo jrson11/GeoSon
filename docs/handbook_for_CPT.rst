@@ -14,7 +14,7 @@ Fundamental CPT processing
 
 03. In-situ stress (sv0, sv0e)
 
-04. qt, qnet, and Nkt analysis
+04. qt, qnet
 
 05. etc
 
