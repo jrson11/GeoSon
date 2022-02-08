@@ -7,9 +7,9 @@ GeoSon_geosoftware
 Open software
 --------------
 
-01. Open
+01. ADONIS
 
-02. Open
+02. HYRCAN
 
 
 Commercial software
