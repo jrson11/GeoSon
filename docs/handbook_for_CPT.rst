@@ -26,6 +26,8 @@ Engineering parameters from CPT
 
 11. qc and Ic for SAND/CLAY
 
+    - Ic
+    - Isbt
 
 12. qt and OCR for CLAY
 
