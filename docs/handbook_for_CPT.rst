@@ -43,7 +43,6 @@ Engineering parameters from CPT
 
     - Qnet
     - Nkt
-    - Statistics
 
 15. Vs and Gmax for SAND/CLAY
 
