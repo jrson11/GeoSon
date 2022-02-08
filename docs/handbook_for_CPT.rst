@@ -31,6 +31,8 @@ Engineering parameters from CPT
 
 12. qt and OCR for CLAY
 
+    - P'c
+    - OCR
 
 13. Dr and Friction angle for SAND
     
