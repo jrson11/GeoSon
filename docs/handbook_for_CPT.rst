@@ -32,7 +32,7 @@ Engineering parameters from CPT
 12. qt and OCR for CLAY
 
     - P'c
-    - OCR
+    - OCR   (Excel template - Integration)
 
 13. Dr and Friction angle for SAND
     
