@@ -26,7 +26,7 @@ Engineering parameters from CPT
 
 11. qc and Ic for SAND/CLAY
 
-    - Ic (Excel template - Ic)
+    - Ic    (Excel template - Ic)
     - Isbt
 
 12. qt and OCR for CLAY
