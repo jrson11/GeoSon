@@ -18,16 +18,16 @@ Fundamental CPT processing
 
 05. etc
 
-06. Soil Behaviour Type (Isbt, Ic)
+06. Soil Behaviour Type (Ic, Isbt)
 
+    - Ic    (Excel template - Ic)
+    - Isbt
 
 Engineering parameters from CPT
 -------------------------------
 
 11. qc and Ic for SAND/CLAY
 
-    - Ic    (Excel template - Ic)
-    - Isbt
 
 12. qt and OCR for CLAY
 
