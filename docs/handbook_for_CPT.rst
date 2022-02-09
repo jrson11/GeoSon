@@ -36,17 +36,17 @@ Engineering parameters from CPT
 
 13. Dr and Friction angle for SAND
     
-    - Dr (Excel template - Soil Unit)
+    - Dr    (Excel template - Integration)
     - phi
 
 14. Qnet and Su with Nkt for CLAY
 
-    - Qnet (Excel template - Soil Unit)
-    - Nkt (Excel template - Nkt)
+    - Qnet  (Excel template - Integration)
+    - Nkt   (Excel template - Nkt)
 
 15. Vs and Gmax for SAND/CLAY
 
-    - Vs (Excel template - Soil Unit)
+    - Vs    (Excel template - Integration)
     - Gmax
 
 Details in Private Repository
