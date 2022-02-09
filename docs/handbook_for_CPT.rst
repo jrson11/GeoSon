@@ -26,7 +26,7 @@ Engineering parameters from CPT
 
 11. qc and Ic for SAND/CLAY
 
-    - Ic
+    - Ic (Excel template - Ic)
     - Isbt
 
 12. qt and OCR for CLAY
@@ -36,17 +36,17 @@ Engineering parameters from CPT
 
 13. Dr and Friction angle for SAND
     
-    - Dr
+    - Dr (Excel template - Soil Unit)
     - phi
 
 14. Qnet and Su with Nkt for CLAY
 
-    - Qnet
-    - Nkt
+    - Qnet (Excel template - Soil Unit)
+    - Nkt (Excel template - Nkt)
 
 15. Vs and Gmax for SAND/CLAY
 
-    - Vs
+    - Vs (Excel template - Soil Unit)
     - Gmax
 
 Details in Private Repository
