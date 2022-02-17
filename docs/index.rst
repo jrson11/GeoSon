@@ -36,6 +36,6 @@ Integrated Offshore Geophysics and Geotechnical Engineering (Ditigal Handbook wi
    :maxdepth: 1
    :caption: Renewable Energy
    
-   Offshore_Windfarm_in_Europe<./handbook_for_OWF_EU>
+   Offshore_Windfarm_in_Europe <./handbook_for_OWF_EU>
    Offshore_Windfarm_in_US <./handbook_for_OWF_US>
    Offshore_Windfarm_in_Asia <./handbook_for_OWF_Asia>
