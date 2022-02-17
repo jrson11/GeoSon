@@ -15,7 +15,7 @@ Integrated Offshore Geophysics and Geotechnical Engineering (Ditigal Handbook wi
    :maxdepth: 1
    :caption: Geotechnics
    
-   CPT<./handbook_for_CPT>
+   CPT <./handbook_for_CPT>
    SoilTest <./handbook_for_SoilTest>
    Slope <./handbook_for_Slope>
    Foundation <./handbook_for_Foundation>
@@ -26,10 +26,10 @@ Integrated Offshore Geophysics and Geotechnical Engineering (Ditigal Handbook wi
    :maxdepth: 1
    :caption: Data Science
    
-   STAT<./handbook_for_STAT>
-   MCMC<./handbook_for_MCMC>
-   Bayesian<./handbook_for_Bayes>
-   MachineLearning<./handbook_for_ML>
+   Statistics <./handbook_for_STAT>
+   MCMC <./handbook_for_MCMC>
+   BayesianInference <./handbook_for_Bayes>
+   MachineLearning <./handbook_for_ML>
 
 
 .. toctree::
