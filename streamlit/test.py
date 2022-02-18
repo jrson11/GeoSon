@@ -1,18 +1,47 @@
 import streamlit as st
 
-password = st.sidebar.text_input("Password:", value="")
+import dash
+import dash_auth
+import dash_core_components as dcc
+import dash_html_components as html
+import plotly
 
-# select our text input field and make it into a password input
-js = "el = document.querySelectorAll('.sidebar-content input')[0]; el.type = 'password';"
+# Keep this out of source code repository - save in a file or a database
+VALID_USERNAME_PASSWORD_PAIRS = {
+    'hello': 'world'
+}
 
-# passing js code to the onerror handler of an img tag with no src
-# triggers an error and allows automatically running our code
-html = f'<img src onerror="{js}">'
+external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
-# in contrast to st.write, this seems to allow passing javascript
-div = Div(text=html)
-st.bokeh_chart(div)
+app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+auth = dash_auth.BasicAuth(
+    app,
+    VALID_USERNAME_PASSWORD_PAIRS
+)
 
-if password != os.environ["PASSWORD"]:
-    st.error("the password you entered is incorrect")
+app.layout = html.Div([
+    html.H1('Welcome to the app'),
+    html.H3('You are successfully authorized'),
+    dcc.Dropdown(['A', 'B'], 'A', id='dropdown'),
+    dcc.Graph(id='graph')
+], className='container')
 
+@app.callback(
+    dash.dependencies.Output('graph', 'figure'),
+    [dash.dependencies.Input('dropdown', 'value')])
+def update_graph(dropdown_value):
+    return {
+        'layout': {
+            'title': 'Graph of {}'.format(dropdown_value),
+            'margin': {
+                'l': 20,
+                'b': 20,
+                'r': 10,
+                't': 60
+            }
+        },
+        'data': [{'x': [1, 2, 3], 'y': [4, 1, 2]}]
+    }
+
+if __name__ == '__main__':
+    app.run_server(debug=True)
