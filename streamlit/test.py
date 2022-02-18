@@ -15,4 +15,4 @@ st.bokeh_chart(div)
 
 if password != os.environ["PASSWORD"]:
     st.error("the password you entered is incorrect")
-    return
+
