@@ -1,12 +1,18 @@
 import streamlit as st
-import streamlit.components.v1 as components
 
-st.markdown('## Hi')
+password = st.sidebar.text_input("Password:", value="")
 
+# select our text input field and make it into a password input
+js = "el = document.querySelectorAll('.sidebar-content input')[0]; el.type = 'password';"
 
-st.header("test html import")
+# passing js code to the onerror handler of an img tag with no src
+# triggers an error and allows automatically running our code
+html = f'<img src onerror="{js}">'
 
-HtmlFile = open("google.html", 'r', encoding='utf-8')
-source_code = HtmlFile.read() 
-print(source_code)
-components.html(source_code, height = 600)
+# in contrast to st.write, this seems to allow passing javascript
+div = Div(text=html)
+st.bokeh_chart(div)
+
+if password != os.environ["PASSWORD"]:
+    st.error("the password you entered is incorrect")
+    return
