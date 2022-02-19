@@ -7,3 +7,6 @@ st.markdown('## ez_Cc Cr Cs from log(x)-y plot')
 
 
 x = np.linspace(1,10,1)
+y = x*2
+
+st.text(y)
