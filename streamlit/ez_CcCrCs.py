@@ -3,7 +3,7 @@ import pandas as pd
 import streamlit as st
 
 # Title
-st.markdown('## ez_Cc Cr Cs from log(x)-y plot')
+st.markdown('## Tangent Lines from log(x)-y plot')
 
 # Sidebar
 st.sidebar.markdown('## Tangent Lines: y = ax + b')
