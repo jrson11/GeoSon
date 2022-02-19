@@ -7,7 +7,7 @@ st.markdown('## ez_Cc Cr Cs from log(x)-y plot')
 
 # Sidebar
 st.sidebar.markdown('## Tangent Lines: y = ax + b')
-Cc_point_1_index = st.sidebar.slider('Index of starting Cc point', 5.0, 15.0, 10.5) 
+Cc_point_1_index = st.sidebar.selectbox('Index of starting Cc point', ([0,1,2,3])) 
 Cc_point_2_slope = st.sidebar.slider('Slope(a) of ending Cc line', 5.0, 15.0, 10.5)  
 Cc_point_2_intercept = st.sidebar.slider('Intercept(b) of ending Cc line', 5.0, 15.0, 10.5) 
 #
