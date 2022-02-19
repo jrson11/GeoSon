@@ -26,4 +26,4 @@ Cs_point_2_intercept = st.sidebar.slider('Intercept(b) of ending Cs line', 5.0, 
 x = np.linspace(1,10,1)
 y = x*2
 
-st.dataframe(pd.DataFrame(y))
+st.text(pass_world)
