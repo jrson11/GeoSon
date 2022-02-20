@@ -33,9 +33,6 @@ df['X'] = x
 df['Y'] = y
 df.insert(0,'NAME','BH_A00')
 
-#
-st.text(str(nx))
-st.text(str(ny))
 
 st.dataframe(df)
 
