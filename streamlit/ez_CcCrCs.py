@@ -27,6 +27,6 @@ Cs_point_2_intercept = st.sidebar.slider('Intercept(b) of ending Cs line', 5.0, 
 
 # Data
 garret_burhenn_pitches_csv = Path(__file__).parents[1] / 'data-CcCrCs.csv'
-
+df = pd.read_csv(garret_burhenn_pitches_csv)
 #
-#st.dataframe(df)
+st.dataframe(df)
