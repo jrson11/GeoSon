@@ -25,6 +25,6 @@ Cs_point_2_slope = st.sidebar.slider('Slope(a) of ending Cs line', 5.0, 15.0, 10
 Cs_point_2_intercept = st.sidebar.slider('Intercept(b) of ending Cs line', 5.0, 15.0, 10.5)
 
 # Data
-df = pd.DataFrame
+df = pd.DataFrame()
 #
 st.dataframe(df)
