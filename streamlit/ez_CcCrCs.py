@@ -31,7 +31,9 @@ y = [0.749,0.75,0.75,0.751,0.75,0.748,0.747,0.746,0.743,0.741,0.741,0.74,0.737,0
 nx = len(x)
 ny = len(y)
 
-df = pd.DataFrame(x,y, columns=['X','Y'])
+df = pd.DataFrame()
+df['X'] = x
+df['Y'] = y
 df['NAME'] = 'BH_A00'
 
 #
