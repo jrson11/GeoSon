@@ -32,6 +32,7 @@ nx = len(x)
 ny = len(y)
 
 df = pd.DataFrame(x,y)
+df['NAME'] = 'BH_A00'
 
 #
 st.text(str(nx))
