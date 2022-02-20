@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 import streamlit as st
+import altair as alt
 
 # Title
 st.markdown('## Tangent Lines from log(x)-y plot')
@@ -23,7 +24,7 @@ Cs_point_1_index = st.sidebar.selectbox('Index of starting Cs point', ([0,1,2,3]
 Cs_point_2_slope = st.sidebar.slider('Slope(a) of ending Cs line', 5.0, 15.0, 10.5)  
 Cs_point_2_intercept = st.sidebar.slider('Intercept(b) of ending Cs line', 5.0, 15.0, 10.5)
 
-x = np.linspace(1,10,1)
-y = x*2
-
-st.text(pass_world)
+# Data
+df = pd.DataFrame
+#
+st.dataframe(df)
