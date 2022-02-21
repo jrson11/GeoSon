@@ -10,6 +10,6 @@ References
 -----------
 
 
-- What is Geomechanics: https://www.slb.com/resource-library/oilfield-review/defining-series/defining-geomechanics 
+- What is Geomechanics?: https://www.slb.com/resource-library/oilfield-review/defining-series/defining-geomechanics 
 
 
