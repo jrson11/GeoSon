@@ -19,6 +19,11 @@ df['Y'] = y
 df.insert(0,'NAME','BH_A00')
 
 ## Plot
+fig = plt.figure(figsize = (10,5)))
+#
+plt.scatter(x,y)
+#
+st.pyplot(fig)
 
 # Main --------------------------------------------------
 def main():
