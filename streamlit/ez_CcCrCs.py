@@ -32,6 +32,9 @@ if password == st.secrets['db_password']:
 else:
   st.markdown('## Please join KUPEA')
   
+  fig = plt.subplot(1,1)
+  
+  
   
 
 '''
