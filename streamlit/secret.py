@@ -5,11 +5,11 @@ st.markdown("# Test page to keep secret")
 password = st.sidebar.text_input('Password?', 'password')
 
 if password == st.secrets["db_password"]:
-  st.write('Welcome to KUPEA')
+  st.markdown('## Welcome to KUPEA')
   main()
   
 else:
-  st.write('Please join KUPEA')
+  st.markdown('## Please join KUPEA')
 
 
 def main():
