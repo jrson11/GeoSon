@@ -3,6 +3,8 @@ import pandas as pd
 import streamlit as st
 import altair as alt
 
+
+'''
 # Title
 st.markdown('## Tangent Lines from log(x)-y plot')
 
@@ -44,3 +46,4 @@ fig = alt.Chart(df).mark_point.encode(
   )
 #
 st.altair_chart(fig)
+'''
