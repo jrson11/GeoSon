@@ -29,8 +29,8 @@ Integrated Offshore Geophysics and Geotechnical Engineering (Ditigal Handbook wi
    
    Statistics <./handbook_for_STAT>
    MCMC <./handbook_for_MCMC>
-   BayesianInference <./handbook_for_Bayes>
-   MachineLearning <./handbook_for_ML>
+   Bayesian_Inference <./handbook_for_Bayes>
+   Machine_Learning <./handbook_for_ML>
 
 
 .. toctree::
