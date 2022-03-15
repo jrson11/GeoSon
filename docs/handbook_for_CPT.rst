@@ -60,3 +60,4 @@ References
 
 - Webinars - http://www.greggdrilling.com/webinars
 - Paper: "Typical values of the CPT cone factor, Nkt, in Auckland clays" -  https://www.nzgs.org/library/nzgs20_holtrigter/
+- Axial capacity calculator using CPT - https://pile-capacity-uwa.com/
