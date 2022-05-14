@@ -13,33 +13,39 @@ Consolidation tests
 
 02. IL - https://www.vjtech.co.uk/blog/consolidation-testing-an-introduction
 
-Triaxial tests (TX)
--------------------
-03. UU (Unconsolidated Undrained) - https://www.vjtech.co.uk/blog/triaxial-testing-an-introduction
-
-04. CAU (Consolidated Anisotropic Undrained)
-
-05. CID (Consolidated Isotropic Drained)
-
-06. cyTX (cyclic TX)
 
 Shear tests
 ------------
-07. DS (Direct Shear)
+03. DS (Direct Shear)
 
-08. DSS (Direct Simple Shear) - https://www.vjtech.co.uk/blog/introduction-to-direct-simple-shear-dss-testing
+04. DSS (Direct Simple Shear) - https://www.vjtech.co.uk/blog/introduction-to-direct-simple-shear-dss-testing
 
-09. cyDSS (cyclic DSS)
+05. ISB (Interface ShearBox)
 
-10. ISB (Interface ShearBox)
+06. RS (Ring Shear) - https://www.youtube.com/watch?v=R9vTsrE8bSA
+
+
+Triaxial tests (TX)
+-------------------
+07. UU (Unconsolidated Undrained) - https://www.vjtech.co.uk/blog/triaxial-testing-an-introduction
+
+08. CAU (Consolidated Anisotropic Undrained)
+
+09. CID (Consolidated Isotropic Drained)
+
+Dynamic tests
+--------------
+
+10. cyTX (cyclic TX)
+
+11. cyDSS (cyclic DSS)
+
+12. BE (Bender Element) - https://www.vjtech.co.uk/blog/introduction-to-bender-element-testing
+
+13. RC (Resonant Column) - https://www.geotechdata.info/geotest/resonant-column-test
 
 Others
 ------
-11. BE (Bender Element) - https://www.vjtech.co.uk/blog/introduction-to-bender-element-testing
-
-12. RC (Resonant Column) - https://www.geotechdata.info/geotest/resonant-column-test
-
-13. RS (Ring Shear) - https://www.youtube.com/watch?v=R9vTsrE8bSA
 
 14. Thixotrophy test - https://www.youtube.com/watch?v=_v04D-k43WM
 
