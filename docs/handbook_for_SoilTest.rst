@@ -49,7 +49,7 @@ Others
 
 14. Thixotroph test - https://www.youtube.com/watch?v=_v04D-k43WM
 
-15. Rheological (Yield and Viscosity) test - https://www.brookfieldengineering.com/products/viscometers/laboratory-viscometers/dvnext-cone-plate-rheometer
+15. Rheological (Yield and Viscosity) test - https://www.venktron.com/Product/ProductDetail/1e9db8bc-5ccd-4421-ad32-26199dac6893
 
 16. EFA (Erosional Function Apparatus) - https://www.youtube.com/watch?v=zWkNS74EAuM 
 
