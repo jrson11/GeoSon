@@ -47,11 +47,11 @@ Dynamic tests
 Others
 ------
 
-14. Thixotrophy test - https://www.youtube.com/watch?v=_v04D-k43WM
+14. Thixotroph test - https://www.youtube.com/watch?v=_v04D-k43WM
 
-15. Rheology test - 
+15. Rheological (Yield and Viscosity) test - 
 
-16. EFA (Erosion Function Apparatus) - https://www.youtube.com/watch?v=zWkNS74EAuM 
+16. EFA (Erosional Function Apparatus) - https://www.youtube.com/watch?v=zWkNS74EAuM 
 
 
 Details in Private Repository
