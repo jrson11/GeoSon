@@ -12,26 +12,43 @@ Standard lab testing
 - ASTM D6913: Grain-size analysis: Seive (SV) - https://www.astm.org/d6913-04r09.html
 - ASTM D7928: Grain-size analysis: Hydrometer (HY) - https://www.astm.org/d7928-21e01.html
 - ASTM D4648/D4648-05: Minivane (MV) - https://www.astm.org/standards/d4648
-- ASTM D4648/D4648-10: MV Thxitropy - https://webstore.ansi.org/Standards/ASTM/astmd4648d4648m10
 
 Advanced lab testing
 --------------------
 
+Consolidation
+.............
+
 - ASTM D4186: CRS - https://www.astm.org/d4186-06.html
 - ASTM D2435 : IL - https://www.astm.org/d2435-04.html
 
+Static Strength
+...............
+
 - ASTM D6528: Static DSS - https://www.astm.org/d6528-17.html
 - ASTM n/a: Rapid DSS - But a strain-controlled cyDSS test can achieve the target strain rate for rapid DSS
-- ASTM D8296-19 Cyclic DSS - https://www.astm.org/d8296-19.html
+- ASTM D6467: RS - https://www.astm.org/d6467-21e01.html
+- ASTM D4648/D4648-10: MV Thxitropy - https://webstore.ansi.org/Standards/ASTM/astmd4648d4648m10
+- ASTM n/a: EFA - (Briaud et al., 2001)
+
+Static Stress_Strain
+....................
 
 - ASTM D2850: UU - https://www.astm.org/d2850-03.html
 - ASTM D4767-11: CU - https://www.astm.org/d4767-11.html
 - ASTM D7181:CD - https://www.astm.org/d7181-20.html
+- ASTM D2196: Rheology - https://www.astm.org/d2196-20.html
+
+Dynamic Strength
+...............
+
+- ASTM D8296-19: Cyclic DSS - https://www.astm.org/d8296-19.html
+- ASTM D4015: RC - https://www.astm.org/standards/d4015
+
+Dynamic Stress_Strain
+.....................
 
 - ASTM D8295: BE - https://www.astm.org/d8295-19.html
-- ASTM D4015: RC - https://www.astm.org/standards/d4015
-- ASTM D6467: RS - https://www.astm.org/d6467-21e01.html
+- ASTM D5311-11: Cyclic TX - https://www.astm.org/standards/d5311
 
-- ASTM D2196: Rheology - https://www.astm.org/d2196-20.html
-- ASTM n/a: EFA - (Briaud et al., 2001)
 
