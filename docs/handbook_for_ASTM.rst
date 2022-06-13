@@ -11,8 +11,15 @@ Standard lab testing
 - ASTM D6913: Grain-size analysis: Seive
 - ASTM D7928: Grain-size analysis: Hydrometer
 - ASTM D4648: Minivane (MV)
-
-
+- ASTM D4648/D4648-10: MV Thxitropy
 
 Advanced lab testing
 --------------------
+
+- ASTM D4186: CRS
+- ASTM D6528: Static DSS
+- ASTM ???: Rapid DSS
+- ASTM ???: Cyclic DSS
+- ASTM D4767-11: CKoU
+- ASTM D2196: Rheology
+- ASTM ???: EFA
