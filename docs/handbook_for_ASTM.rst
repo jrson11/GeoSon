@@ -19,7 +19,7 @@ Advanced lab testing
 - ASTM D4186: CRS - https://www.astm.org/d4186-06.html
 - ASTM D2435 : IL - https://www.astm.org/d2435-04.html
 - ASTM D6528: Static DSS - https://www.astm.org/d6528-17.html
-- ASTM n/a: Rapid DSS - But a strain-controlled cyDSS can achieve the target strain rate (25% shear strain at 0.25 Hz)
+- ASTM n/a: Rapid DSS - But a strain-controlled cyDSS can achieve the target strain rate for rapid DSS
 - ASTM D8296-19 Cyclic DSS - https://www.astm.org/d8296-19.html
 - ASTM D2850: UU - https://www.astm.org/d2850-03.html
 - ASTM D4767-11: CU - https://www.astm.org/d4767-11.html
