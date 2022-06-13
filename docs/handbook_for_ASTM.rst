@@ -4,6 +4,7 @@ Standard lab testing
 --------------------
 
 - ASTM D2216: Water (Moisture) Content (WC) - https://www.astm.org/d2216-19.html
+- ASTM D7263: Unit Weight (UW) - https://www.astm.org/d7263-21.html
 - ASTM D4318: Atterberg Limits (AL) - https://www.astm.org/d4318-17e01.html
 - ASTM D4373: Carbonate Content (CC) - https://www.astm.org/d4373-21.html
 - ASTM D2974/D2974-20: Organic Content (OC) - https://www.astm.org/d2974-20e01.html
