@@ -21,6 +21,7 @@ Integrated Offshore Geophysics and Geotechnical Engineering (Ditigal Handbook wi
    Slope <./handbook_for_Slope>
    Foundation <./handbook_for_Foundation>
    GeoSoftware <./handbook_for_GeoSoftware>
+   ASTM <./handbook_for_ASTM>
 
 
 .. toctree::
