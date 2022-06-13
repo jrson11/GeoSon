@@ -25,6 +25,7 @@ Consolidation
 Static Strength
 ...............
 
+- ASTM D3080 : DS - https://www.astm.org/standards/d3080
 - ASTM D6528: Static DSS - https://www.astm.org/d6528-17.html
 - ASTM n/a: Rapid DSS - But a strain-controlled cyDSS test can achieve the target strain rate for rapid DSS
 - ASTM D6467: RS - https://www.astm.org/d6467-21e01.html
