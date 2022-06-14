@@ -25,8 +25,8 @@ Consolidation
 - ASTM D4186: CRS - https://www.astm.org/d4186-06.html
 - ASTM D2435 : IL - https://www.astm.org/d2435-04.html
 
-Static Strength
-...............
+Static 
+.......
 
 - ASTM D3080 : DS - https://www.astm.org/standards/d3080
 - ASTM D6528: Static DSS - https://www.astm.org/d6528-17.html
@@ -40,7 +40,7 @@ Static Strength
 - ASTM D2196: Rheology - https://www.astm.org/d2196-20.html
 
 Dynamic 
-...............
+........
 
 - ASTM D8296-19: Cyclic DSS - https://www.astm.org/d8296-19.html
 - ASTM D4015: RC - https://www.astm.org/standards/d4015
