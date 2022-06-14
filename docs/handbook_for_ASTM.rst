@@ -1,4 +1,7 @@
 ASTM
+=======
+
+- List and link to ASTM standard
 
 Standard lab testing
 --------------------
@@ -31,24 +34,16 @@ Static Strength
 - ASTM D6467: RS - https://www.astm.org/d6467-21e01.html
 - ASTM D4648/D4648-10: MV Thxitropy - https://webstore.ansi.org/Standards/ASTM/astmd4648d4648m10
 - ASTM n/a: EFA - (Briaud et al., 2001)
-
-Static Stress_Strain
-....................
-
 - ASTM D2850: UU - https://www.astm.org/d2850-03.html
 - ASTM D4767-11: CU - https://www.astm.org/d4767-11.html
 - ASTM D7181:CD - https://www.astm.org/d7181-20.html
 - ASTM D2196: Rheology - https://www.astm.org/d2196-20.html
 
-Dynamic Strength
+Dynamic 
 ...............
 
 - ASTM D8296-19: Cyclic DSS - https://www.astm.org/d8296-19.html
 - ASTM D4015: RC - https://www.astm.org/standards/d4015
-
-Dynamic Stress_Strain
-.....................
-
 - ASTM D8295: BE - https://www.astm.org/d8295-19.html
 - ASTM D5311-11: Cyclic TX - https://www.astm.org/standards/d5311
 
