@@ -39,6 +39,8 @@ Design parameters
 - Suction bucket penetration
 
 
+-------------------------------------------
+
 Details in Private Repository
 ------------------------------
 
