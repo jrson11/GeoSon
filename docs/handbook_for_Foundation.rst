@@ -4,9 +4,11 @@
 GeoSon_Foundation
 ==================
 
+Types
+-----
 
 MonoTower
----------
+............
 
 - Monopile
 - Mono bucket
@@ -14,7 +16,7 @@ MonoTower
 
 
 Jacket/Tripod
--------------
+..............
 
 - Driven steel pile
 - Suction caisson
