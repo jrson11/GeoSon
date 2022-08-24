@@ -38,6 +38,22 @@ Design parameters
 - Shallow foundation bearing capacity
 - Suction bucket penetration
 
+Standards
+---------
+
+Onshore
+........
+- API
+- FHWA
+- AASHTO
+- Corps of Engineer Manual
+- Navy Manual
+
+Offshore
+........
+- API
+- ABS
+- DNV
 
 -------------------------------------------
 
