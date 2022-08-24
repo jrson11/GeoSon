@@ -29,6 +29,9 @@ Primiary Installation Analysis
 
     1. Axial pile capacity
     2. Lateral pile capacity
+    3. Pile drivability
+    4. Shallow foundation bearing capacity
+    5. Suction bucket penetration
 
 Details in Private Repository
 ------------------------------
