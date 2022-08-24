@@ -4,8 +4,8 @@
 GeoSon_Foundation
 ==================
 
-Types
------
+Foundation Types
+-----------------
 
 MonoTower
 ............
@@ -26,14 +26,18 @@ Jacket/Tripod
 Primiary Installation Analysis
 -------------------------------
 
-- Design loads
-- Design parameters
+Design loads
+............
 
-    1. Axial pile capacity
-    2. Lateral pile capacity
-    3. Pile drivability
-    4. Shallow foundation bearing capacity
-    5. Suction bucket penetration
+Design parameters
+..................
+
+- Axial pile capacity
+- Lateral pile capacity
+- Pile drivability
+- Shallow foundation bearing capacity
+- Suction bucket penetration
+
 
 Details in Private Repository
 ------------------------------
