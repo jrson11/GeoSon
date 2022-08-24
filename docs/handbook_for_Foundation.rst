@@ -27,8 +27,8 @@ Primiary Installation Analysis
 - Design loads
 - Design parameters
 
-1. Axial pile capacity
-2. Lateral pile capacity
+    1. Axial pile capacity
+    2. Lateral pile capacity
 
 Details in Private Repository
 ------------------------------
