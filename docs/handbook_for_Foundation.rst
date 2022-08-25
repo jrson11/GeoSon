@@ -65,6 +65,7 @@ https://github.com/jrson11/FUSAMI/blob/main/docs/handbook_for_Foundation.rst
 References
 ----------
 - Webinar (05-19-2022): New Integrated Design Models for Orrshore Wind Turbine Foundations -  https://www.youtube.com/watch?v=mvvKL98T20M
+- ISFOG Webinar (03-15-2022): New proposed ISO/API unified CPT-based method for axial pile capacity in sand - https://www.youtube.com/watch?v=bU3y4G4kCL4
 - NGI (02-05-2021): Design of monopiles for cyclic loading - https://www.youtube.com/watch?v=IR4iORdwhmE
 - UWA (06-19-2020): Seabed pipe-soil interaction - https://www.youtube.com/watch?v=ieTK43fXqZc
 - SUT Webinar (06-16-2020): Boulder Identification and Foundation Installation Risk - https://www.youtube.com/watch?v=lGK0_aLMTD8
