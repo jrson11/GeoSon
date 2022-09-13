@@ -22,7 +22,7 @@ Commercial software
 
 04. CPe-IT (GeoLogismiki)
 
-- CPT worked examples using CPeT-IT version 2 by Dr. Peter K. Robertson - https://www.youtube.com/watch?v=FTUgUJaY4uw
+    - CPT worked examples using CPeT-IT version 2 by Dr. Peter K. Robertson - https://www.youtube.com/watch?v=FTUgUJaY4uw
 
 05. CLiq (GeoLogismiki)
 
