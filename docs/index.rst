@@ -20,6 +20,7 @@ Integrated Offshore Geophysics and Geotechnical Engineering (Ditigal Handbook wi
    SoilTest <./handbook_for_SoilTest>
    Slope <./handbook_for_Slope>
    Foundation <./handbook_for_Foundation>
+   Liquefaction <./handbook_for_Liquefaction>
    GeoSoftware <./handbook_for_GeoSoftware>
    ASTM <./handbook_for_ASTM>
 
