@@ -20,6 +20,20 @@ Commercial software
 
 03. SlopeW (GeoStudio)
 
+04. CPe-IT (GeoLogismiki)
+
+- CPT worked examples using CPeT-IT version 2 by Dr. Peter K. Robertson - https://www.youtube.com/watch?v=FTUgUJaY4uw
+
+05. CLiq (GeoLogismiki)
+
+
+
+06. LiqSVs (GeoLogismiki)
+
+07. Settle3 (rocscience)
+
+- From Modelling to Real Case Studies using Settle3 - https://www.youtube.com/watch?v=6d5ylid0rOY
+
 
 Confidential software
 --------------------------
