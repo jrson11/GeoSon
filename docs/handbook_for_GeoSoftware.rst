@@ -26,13 +26,14 @@ Commercial software
 
 05. CLiq (GeoLogismiki)
 
+    - CPT worked examples using CLiq verrsion 2 - https://www.youtube.com/watch?v=Cenu8K7QukE
 
 
 06. LiqSVs (GeoLogismiki)
 
 07. Settle3 (rocscience)
 
-- From Modelling to Real Case Studies using Settle3 - https://www.youtube.com/watch?v=6d5ylid0rOY
+    - From Modelling to Real Case Studies using Settle3 - https://www.youtube.com/watch?v=6d5ylid0rOY
 
 
 Confidential software
