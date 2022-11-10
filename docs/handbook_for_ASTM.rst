@@ -32,12 +32,12 @@ Static
 - ASTM D6528: Static DSS - https://www.astm.org/d6528-17.html
 - ASTM n/a: Rapid DSS - But a strain-controlled cyDSS test can achieve the target strain rate for rapid DSS
 - ASTM D6467: RS - https://www.astm.org/d6467-21e01.html
-- ASTM D4648/D4648-10: MV Thxitropy - https://webstore.ansi.org/Standards/ASTM/astmd4648d4648m10
+- ASTM D4648/D4648-10: MV Thxitropy - https://webstore.ansi.org/Standards/ASTM/astmd4648d4648m10 
 - ASTM n/a: EFA - (Briaud et al., 2001)
-- ASTM D2850: UU - https://www.astm.org/d2850-03.html
-- ASTM D4767-11: CU - https://www.astm.org/d4767-11.html
-- ASTM D7181:CD - https://www.astm.org/d7181-20.html
-- ASTM D2196: Rheology - https://www.astm.org/d2196-20.html
+- ASTM D2850: UU - https://www.astm.org/d2850-03.html 
+- ASTM D4767-11: CU - https://www.astm.org/d4767-11.html 
+- ASTM D7181:CD - https://www.astm.org/d7181-20.html 
+- ASTM D2196: Rheology - https://www.astm.org/d2196-20.html 
 
 Dynamic 
 ........
