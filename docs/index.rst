@@ -24,7 +24,7 @@ Integrated Offshore Geophysics and Geotechnical Engineering (Ditigal Handbook wi
 
 .. toctree::
    :maxdepth: 1
-   :caption: Offshore Geotechnics
+   :caption: Onshore Geotechnics
    
    FHWA <./handbook_for_FHWA>
    Settlement <./handbook_for_Settlement>
@@ -33,17 +33,12 @@ Integrated Offshore Geophysics and Geotechnical Engineering (Ditigal Handbook wi
    
 .. toctree::
    :maxdepth: 1
-   :caption: Data Science
+   :caption: Data Science & Energy Industry
    
    Statistics <./handbook_for_STAT>
    Stochastics (MCMC) <./handbook_for_MCMC>
    Bayesian_Inference <./handbook_for_Bayes>
-   Machine_Learning <./handbook_for_ML>
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Renewable Energy
-   
+   Machine_Learning <./handbook_for_ML>  
    Offshore_Windfarm_in_Europe <./handbook_for_OWF_EU>
    Offshore_Windfarm_in_US <./handbook_for_OWF_US>
    Offshore_Windfarm_in_Asia <./handbook_for_OWF_Asia>
