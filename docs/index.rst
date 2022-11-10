@@ -30,6 +30,7 @@ Integrated Offshore Geophysics and Geotechnical Engineering (Ditigal Handbook wi
    Settlement <./handbook_for_Settlement>
    Shallow_Foundation <./handbook_for_Shallow>
    Deep_Foundation <./handbook_for_Deep>
+   FEM <./handbook_for_FEM>
    
 .. toctree::
    :maxdepth: 1
@@ -38,7 +39,7 @@ Integrated Offshore Geophysics and Geotechnical Engineering (Ditigal Handbook wi
    Statistics <./handbook_for_STAT>
    Stochastics (MCMC) <./handbook_for_MCMC>
    Bayesian_Inference <./handbook_for_Bayes>
-   Machine_Learning <./handbook_for_ML>  
+   Machine_Learning <./handbook_for_ML>
    Offshore_Windfarm_in_Europe <./handbook_for_OWF_EU>
    Offshore_Windfarm_in_US <./handbook_for_OWF_US>
    Offshore_Windfarm_in_Asia <./handbook_for_OWF_Asia>
