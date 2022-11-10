@@ -40,7 +40,5 @@ Integrated Geophysics and Geotechnical Engineering (Ditigal Handbooks)
    Stochastics (MCMC) <./handbook_for_MCMC>
    Bayesian_Inference <./handbook_for_Bayes>
    Machine_Learning <./handbook_for_ML>
-   Offshore_Windfarm_in_Europe <./handbook_for_OWF_EU>
-   Offshore_Windfarm_in_US <./handbook_for_OWF_US>
-   Offshore_Windfarm_in_Asia <./handbook_for_OWF_Asia>
-   Offshore_Windfarm_in_ArcGIS <./handbook_for_OWF_GIS>
+   Offshore_Windfarm <./handbook_for_OWF>
+
