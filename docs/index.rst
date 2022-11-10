@@ -7,10 +7,9 @@ Integrated Offshore Geophysics and Geotechnical Engineering (Ditigal Handbook wi
    :maxdepth: 1
    :caption: Geophysics
    
-   Kingdom <./handbook_for_Kingdom>
+   IHS Kingdom <./handbook_for_Kingdom>
    Inversion <./handbook_for_Inversion>
    Integration <./handbook_for_Integration>
-   Geomechanics <./handbook_for_Geomechanics>
 
 .. toctree::
    :maxdepth: 1
