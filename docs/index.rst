@@ -4,7 +4,7 @@ Integrated Geophysics and Geotechnical Engineering (Ditigal Handbooks)
 **Contents will be in private repository**
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Geophysics
    
    IHS_Kingdom <./handbook_for_Kingdom>
@@ -12,7 +12,7 @@ Integrated Geophysics and Geotechnical Engineering (Ditigal Handbooks)
    Integration <./handbook_for_Integration>
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Offshore Geotechnics
    
    ASTM <./handbook_for_ASTM>
@@ -23,7 +23,7 @@ Integrated Geophysics and Geotechnical Engineering (Ditigal Handbooks)
    GeoSoftware <./handbook_for_GeoSoftware>
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Onshore Geotechnics
    
    FHWA <./handbook_for_FHWA>
@@ -33,7 +33,7 @@ Integrated Geophysics and Geotechnical Engineering (Ditigal Handbooks)
    FEM <./handbook_for_FEM>
    
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Data Science & Energy Industry
    
    Statistics <./handbook_for_STAT>
