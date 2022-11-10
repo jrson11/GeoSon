@@ -1,5 +1,5 @@
-Integrated Offshore Geophysics and Geotechnical Engineering (Ditigal Handbook with Python)
-===========================================================================================
+Integrated Geophysics and Geotechnical Engineering (Ditigal Handbooks)
+======================================================================
 
 **Contents will be in private repository**
 
