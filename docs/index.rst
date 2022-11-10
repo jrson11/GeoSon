@@ -7,23 +7,30 @@ Integrated Offshore Geophysics and Geotechnical Engineering (Ditigal Handbook wi
    :maxdepth: 1
    :caption: Geophysics
    
-   IHS Kingdom <./handbook_for_Kingdom>
+   IHS_Kingdom <./handbook_for_Kingdom>
    Inversion <./handbook_for_Inversion>
    Integration <./handbook_for_Integration>
 
 .. toctree::
    :maxdepth: 1
-   :caption: Geotechnics
+   :caption: Offshore Geotechnics
    
+   ASTM <./handbook_for_ASTM>
    CPT <./handbook_for_CPT>
    SoilTest <./handbook_for_SoilTest>
    Slope <./handbook_for_Slope>
    Foundation <./handbook_for_Foundation>
-   Liquefaction <./handbook_for_Liquefaction>
    GeoSoftware <./handbook_for_GeoSoftware>
-   ASTM <./handbook_for_ASTM>
 
-
+.. toctree::
+   :maxdepth: 1
+   :caption: Offshore Geotechnics
+   
+   FHWA <./handbook_for_FHWA>
+   Settlement <./handbook_for_Settlement>
+   Shallow_Foundation <./handbook_for_Shallow>
+   Deep_Foundation <./handbook_for_Deep>
+   
 .. toctree::
    :maxdepth: 1
    :caption: Data Science
@@ -32,7 +39,6 @@ Integrated Offshore Geophysics and Geotechnical Engineering (Ditigal Handbook wi
    Stochastics (MCMC) <./handbook_for_MCMC>
    Bayesian_Inference <./handbook_for_Bayes>
    Machine_Learning <./handbook_for_ML>
-
 
 .. toctree::
    :maxdepth: 1
