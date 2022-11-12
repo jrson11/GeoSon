@@ -29,6 +29,8 @@ q_ult = c Nc + q Nq + 0.5 G B Ng
 - Cohesive soils (phi=0): c*(2+pi) + q*1 + 0
 - Non-Cohesive soils: The embedment effect is particularlyimportant.
 
+- Correction factors
+  - Footing shape
 
 
 
