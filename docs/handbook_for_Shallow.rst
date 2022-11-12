@@ -23,6 +23,14 @@ A failure caused by the vertical and lateral displacement of foundation soils du
 Terzagi's bearing capacity
 --------------------------
 
+q_ult = c Nc + q Nq + 0.5 G B Ng
+
+
+- Cohesive soils (phi=0): c*(2+pi) + q*1 + 0
+- Non-Cohesive soils: The embedment effect is particularlyimportant.
+
+
+
 
 References
 -----------
