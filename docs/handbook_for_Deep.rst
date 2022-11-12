@@ -2,8 +2,14 @@
 
 GeoSon_Deep
 ==================
-- 
-    
+- Displacement piles
+
+- Non-displacement piles
+
+
+- Downdrag load
+
+- Frost heave
 
 
 References
