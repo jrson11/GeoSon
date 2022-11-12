@@ -2,7 +2,13 @@
 
 GeoSon_Shallow
 ==================
-- 
+
+Failure mechanisms
+-------------------
+
+- bearing
+- Local
+- Punch
 
 
 Terzagi's bearing capacity
