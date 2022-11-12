@@ -5,11 +5,18 @@ GeoSon_Settlement
 
 
 
-Primary settlement
-------------------
+Immediate Compression
+----------------------
+
+Elastic compression
 
 
+Primary Consolidation
+----------------------
 
+
+Secondary Compression (Creep)
+------------------------------
 
 
 References
