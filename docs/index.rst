@@ -3,7 +3,8 @@ Integrated Geophysics and Geotechnical Engineering (Ditigal Handbooks)
 
 **Contents will be in private repository**
 
-<img src="https://github.com/jrson11/GeoSon/blob/main/images/GeoSon-concept_diagram-v2.png" width=400>
+.. image:: ../blob/main/images/GeoSon-concept_diagram-v2.png
+   :width: 400
 
 .. toctree::
    :maxdepth: 1
