@@ -1,8 +1,6 @@
 Integrated Geophysics and Geotechnical Engineering (Ditigal Handbooks)
 ======================================================================
 
-**Contents will be in private repository**
-
 .. image:: ../images/GeoSon-concept_diagram-v2.png
    :width: 400
 
@@ -45,3 +43,5 @@ Integrated Geophysics and Geotechnical Engineering (Ditigal Handbooks)
    Machine_Learning <./handbook_for_ML>
    Offshore_Windfarm <./handbook_for_OWF>
 
+
+**Contents will be in private repository**
