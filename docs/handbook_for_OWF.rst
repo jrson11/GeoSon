@@ -1,9 +1,10 @@
 **Contents are brief summary from wikipedia**
 https://en.wikipedia.org/wiki/Offshore_wind_power#Largest_offshore_wind_farms
+https://en.wikipedia.org/wiki/List_of_offshore_wind_farms_in_the_United_States#:~:text=Offshore%20wind%20power%20is%20in,development%20in%20the%20United%20States.&text=In%202016%2C%20the%20United%20States,resource%20potential%20of%202%2C058GW.
+
 
 Offshore Windfarm
 ==================
-
 
 Vindeby Offshore Wind Farm
 ---------------------------
@@ -29,11 +30,6 @@ Hollandse Kust (west) Offshore Wind Farm
 - Operation: 2025/2026 ~
 - Capacity: 700 MW
 - https://offshorewind.rvo.nl/generalw
-
-
-**Contents are brief summary from wikipedia**
-
-https://en.wikipedia.org/wiki/List_of_offshore_wind_farms_in_the_United_States#:~:text=Offshore%20wind%20power%20is%20in,development%20in%20the%20United%20States.&text=In%202016%2C%20the%20United%20States,resource%20potential%20of%202%2C058GW.
 
 
 Ørsted Sunrise Offshore Wind
