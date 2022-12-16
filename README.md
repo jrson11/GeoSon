@@ -16,7 +16,7 @@ https://GeoSon.readthedocs.io
 - Geophysics
 - Geotechnics
 - Data science
-- Renewable energy
+- Energy industry
 
 <!---
 ## Subset Libraries
@@ -26,11 +26,3 @@ https://GeoSon.readthedocs.io
 - **GeoSon_Inversion**: A Python+Julia library to predict **synthetic CPT** from seismic inversion
 -->
 
-## Fugro Web Application
-- Tbar processing: https://share.streamlit.io/jrson11/geoson/main/streamlit/Tbar_processing_from_Uniplot.py
-<!---
-- SharePoint is temporarily closed. Under construction to update.
-https://fugro-my.sharepoint.com/:f:/p/j_son/EjSOgSSES7ZPvRUAkVXlXsUBoYvYUVs5cbtvWx5Hk3XVnQ?e=UKGhz7
-- Only Fugro can access the link
-- Please report any errors from GeoSon to Dr.Son
--->
