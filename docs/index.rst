@@ -27,7 +27,7 @@ Integrated Geophysics and Geotechnical Engineering (Ditigal Handbooks)
    :maxdepth: 1
    :caption: Onshore Geotechnics
    
-   FHWA <./handbook_for_FHWA>
+   Standard_and_Codes <./handbook_for_Standard>
    Settlement <./handbook_for_Settlement>
    Shallow_Foundation <./handbook_for_Shallow>
    Deep_Foundation <./handbook_for_Deep>
