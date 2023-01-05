@@ -9,7 +9,7 @@ FHWA
 - GEC 08 Auger Cast Pile
 - GEC 09 Laterally Loaded Deep Foundation
 - GEC 10 Drilled Shaft
-- GEC 11 MEchanically Stabilized Earth Wall
+- GEC 11 Mechanically Stabilized Earth Wall
 - GEC 12 Drive Pile
 - GEC 13 Ground Improvement MEthods
 
@@ -34,5 +34,7 @@ ASCE
     - ASCE 7-16 Tsunami Loads
     - ASCE 7-16 Wind Loads
 
+AASHTO
+-------
 
 
