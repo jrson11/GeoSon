@@ -1,7 +1,17 @@
-**Contents are brief summary from online sources**
-
 GeoSon_Deep
 ==================
+
+.. toctree:
+    :maxdepth: 2
+    
+    Installations
+    
+    Lateral Capacity
+
+    Axial Capacity
+
+    
+    
 
 Installations
 ------------------
