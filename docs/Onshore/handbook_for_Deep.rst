@@ -3,8 +3,9 @@ GeoSon_Deep
 
 .. toctree::
     :maxdepth: 2
+    :caption: Piles
     
-    Installations
+    Installation <./handbook_for_Deep_Installation>>
     
     Lateral Capacity
 
