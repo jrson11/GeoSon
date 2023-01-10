@@ -51,12 +51,15 @@ Driven Pile
 ............
 
 - CLAY
-    - alpha (Tomlinson,1979)
-    - beta <-- Nt (Fellenius,2014)
+    - alpha (Tomlinson,1980)
+    - beta* (Ersig_Kirby,1979)
+    - beta** <-- Nt (Fellenius,1991)(Fellenius,2014)
+    - lambda 
     - API is for offshore
     - CPT is good approach
 - SAND
-    - Nordlund
+    - (Meyerhof,1976)
+    - (Nordlund,1963)
     - beta
     - Brown <-- SPT
     - CPT is good approach
