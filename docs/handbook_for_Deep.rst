@@ -14,7 +14,7 @@ Driven Pile
 - Precase Prestressed Concrete Pile
 
 
-Drilled Pile
+Drilled Shaft
 .............
 
 - Auger Cast Pile
@@ -36,6 +36,9 @@ Lateral Capacity
 Axial Capacity
 ------------------
 
+Topics
+.......
+
 - API method
 - FHWA method
 - t-z modelling
@@ -44,6 +47,11 @@ Axial Capacity
 - Cyclic loading
 - Group effect
 
+Driven Pile
+............
+
+Drilled Shaft
+.............
 
 
 
