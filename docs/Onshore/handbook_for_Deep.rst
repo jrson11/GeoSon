@@ -1,7 +1,7 @@
 GeoSon_Deep
 ==================
 
-.. toctree:
+.. toctree::
     :maxdepth: 2
     
     Installations
@@ -11,4 +11,3 @@ GeoSon_Deep
     Axial Capacity
 
     
-  
