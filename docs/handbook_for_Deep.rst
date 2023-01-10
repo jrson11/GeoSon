@@ -73,7 +73,7 @@ Drilled Shaft
 
 - SAND
     - beta: SPT value is required
-        - N1_60 = N60*(Pa/s'v)^n (???)
+        - N1_60 = N60*(Pa/s'v)^0.5 (Liao_Whitman,1986)
         - phi = 27.5+9.2*log(N1_60) (Chen_Kulhawy,2002)
         - K0 = 1-sin(phi)
         - s'p = 2116*0.47*N60^0.8
