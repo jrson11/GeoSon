@@ -28,9 +28,10 @@ Integrated Geophysics and Geotechnical Engineering (Ditigal Handbooks)
    :caption: Onshore Geotechnics
    
    Standard_and_Codes <./handbook_for_Standard>
-   Settlement <./handbook_for_Settlement>
+   Site_Investigation <./handbook_for_Site>
    Shallow_Foundation <./handbook_for_Shallow>
    Deep_Foundation <./handbook_for_Deep>
+   Settlement <./handbook_for_Settlement>
    FEM <./handbook_for_FEM>
    
 .. toctree::
