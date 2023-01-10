@@ -50,6 +50,20 @@ Topics
 Driven Pile
 ............
 
+- CLAY
+    - alpha (Tomlinson,1979)
+    - beta <-- Nt (Fellenius,2014)
+    - API is for offshore
+    - CPT is good approach
+- SAND
+    - Nordlund
+    - beta
+    - Brown <-- SPT
+    - CPT is good approach
+
+
+
+
 Drilled Shaft
 .............
 
