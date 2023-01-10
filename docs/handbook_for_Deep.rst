@@ -66,6 +66,18 @@ Driven Pile
 Drilled Shaft
 .............
 
+- CLAY
+    - alpha
+        - Su(UU)/Su(CIUC) = 0.911 + 0.499*log(Su(UU)/s'v) (Chen_Kulhawy,1993)
+        - alpha = 0.30 + 0.17/(Su(CIUC)/Pa)
+
+- SAND
+    - beta: SPT value is required
+        - N1_60 = N60*(Pa/s'v)^n (???)
+        - phi = 27.5+9.2*log(N1_60) (Chen_Kulhawy,2002)
+        - K0 = 1-sin(phi)
+        - s'p = 2116*0.47*N60^0.8
+        - OCR = s'p/s'v
 
 
 References
