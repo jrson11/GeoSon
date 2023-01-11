@@ -31,6 +31,7 @@ Integrated Geophysics and Geotechnical Engineering (Ditigal Handbooks)
    Shallow_Foundation <./Onshore/handbook_for_Shallow>
    Deep_Foundation <./Onshore/handbook_for_Deep>
    Settlement <./Onshore/handbook_for_Settlement>
+   Soil_Stabilization <./Onshore/handbook_for_Stabilization>
    GeoSoftware <./Onshore/handbook_for_GeoSoftware>
 
 .. toctree::
