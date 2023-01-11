@@ -9,5 +9,5 @@ Deep Mixing Method (DMM)
 
 - Two types
   - wet mixing
-  : dd
+  
   - dry mixing
