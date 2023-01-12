@@ -41,8 +41,15 @@ Engineering parameters from SPT
   
   - phi
   
-.. image:: ./images/Hatanaka-1996-phi_from_N.png
+.. image:: ./images/Hettiarachchi-2009-SAND.png
    :width: 400
-(image from Hatanaka and Uchida, 1996, Empirical correlation between penetration resistance and internal friction angle of sandy soils)
+(image from Hettiarachchi and Brown,2009, Use of SPT blow counts to estimate shear strength)
 
 - CLAY
+
+.. image:: ./images/Hettiarachchi-2009-CLAY.png
+   :width: 400
+(image from Hettiarachchi and Brown,2009, Use of SPT blow counts to estimate shear strength)
+
+
+
