@@ -33,7 +33,7 @@ Why DMM (Pros/Cons)?
 How to do DMM?
 ...............
 
-.. image:: ./Onshore/images/DMM-Figure_7-Flowchart for DMM projects.png
+.. image:: GeoSon/docs/Onshore/images/DMM-Figure_7-Flowchart for DMM projects.png
    :width: 400
 
 
