@@ -35,6 +35,8 @@ Engineering parameters from SPT
 
   - Dr
   
+    - Dense SAND: N = 31-50 [bpf] / Dr = 65-85 [%]
+  
 .. image:: ./images/GEC03-Table_4-3_Relative_density_of_sandy_soils.png
    :width: 500  
   
