@@ -5,6 +5,6 @@ Shallow Foundation
     :maxdepth: 2
     :caption: Footing
     
-    Background Theories <./handbook_for_Shallow_Theory>>
+    Background Theories <./handbook_for_Shallow_Theory>
     
     Design <./handbook_for_Shallow_Design>
