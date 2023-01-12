@@ -13,9 +13,9 @@ Correction Factors
 ...................
 
   - Footing shape
-    - Strip:sc,sq,sg = (C) 1, 1, 1 / (NC) 1, 0.6 ,1 
-    
-    - Square
+  
+    - Strip: sc,sg,sq = (C) 1, 1, 1 / (NC) 1, 0.6 ,1 
+    - Square: sc,sg,sq = (C) 1.2, 1, 1 / (NC) 1+(Nq/Nc), 0.6 ,1+tan(phi) 
     
   - Ground water table
   - Embedment depth
