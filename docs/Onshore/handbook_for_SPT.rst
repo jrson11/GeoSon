@@ -21,3 +21,9 @@ Fundamental SPT processing
    :width: 700
    
 (image from FHWA, 2011, GEC No. 3)
+
+2. Calculate (N1)60 (normalized to an effective overburden pressure)
+
+  - (N1)60 = N60 * Cn
+
+    - where Cn = 9.79*(1/SVeff)^0.5 (Liao and Whitman,1986)
