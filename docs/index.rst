@@ -17,9 +17,9 @@ Integrated Geophysics and Geotechnical Engineering (Ditigal Handbooks)
    :caption: Offshore Geotechnics
    
    ASTM <./Offshore/handbook_for_ASTM>
-   CPT <./Offshore/handbook_for_CPT>
-   SoilTest <./Offshore/handbook_for_SoilTest>
-   Slope <./Offshore/handbook_for_Slope>
+   Site_Investigation:CPT <./Offshore/handbook_for_CPT>
+   Soil_Lab_Test <./Offshore/handbook_for_SoilTest>
+   Slope_Stability <./Offshore/handbook_for_Slope>
    Foundation <./Offshore/handbook_for_Foundation>
 
 .. toctree::
@@ -27,11 +27,11 @@ Integrated Geophysics and Geotechnical Engineering (Ditigal Handbooks)
    :caption: Onshore Geotechnics
    
    Standard_and_Codes <./Onshore/handbook_for_Standard>
-   Site_Investigation <./Onshore/handbook_for_Site>
+   Site_Investigation:SPT <./Onshore/handbook_for_SPT>
+   Soil_Stabilization <./Onshore/handbook_for_Stabilization>
    Shallow_Foundation <./Onshore/handbook_for_Shallow>
    Deep_Foundation <./Onshore/handbook_for_Deep>
    Settlement <./Onshore/handbook_for_Settlement>
-   Soil_Stabilization <./Onshore/handbook_for_Stabilization>
    GeoSoftware <./Onshore/handbook_for_GeoSoftware>
 
 .. toctree::
