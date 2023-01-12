@@ -12,9 +12,9 @@ What is DMM?
 
 - Types
 
-  - Wet Mixing: injecting binders in slurry form to blend with the soil
+  - Wet Mixing (SAND): injecting binders in slurry form to blend with the soil
 
-  - Dry Mixing: binders in powder form that react with the water already present in the soil
+  - Dry Mixing (CLAY): binders in powder form that react with the water already present in the soil
 
 
 Why DMM (Pros/Cons)?
@@ -48,6 +48,7 @@ Which parameters should we know?
   - Peak vs Residual
   
 - Modulus: E / Secont values of E (E50) / Unconfined compressive strength (qu)
-  
+
+- OthersL Poisson's ratio (v) / Permeability (k) / UnitWeight (UW)
   
 
