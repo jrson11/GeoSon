@@ -12,13 +12,13 @@ What is DMM?
 
 - Types
 
-  - Wet Mixing (SAND): injecting binders in slurry form to blend with the soil
+  - **Wet Mixing (SAND)**: injecting binders in slurry form to blend with the soil
   
     - Rotary: purely by rotary method (low pressure)
     - Jet: rotary method aided by jet of slurry (high pressure)
     - Vertical: by a chansaw that creates walls or panels
 
-  - Dry Mixing (CLAY): binders in powder form that react with the water already present in the soil
+  - **Dry Mixing (CLAY)**: binders in powder form that react with the water already present in the soil
 
     - Rotary
 
