@@ -7,4 +7,4 @@ Shallow Foundation
     
     Background Theories <./handbook_for_Shallow_Theory>
     
-    Design <./handbook_for_Shallow_Design>
+    Calculation of Bearing Capacity <./handbook_for_Shallow_Calc>
