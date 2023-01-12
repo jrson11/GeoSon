@@ -34,6 +34,8 @@ Engineering parameters from SPT
 - SAND
 
   - Dr
+.. image:: ./images/GEC03-Table_4-3_Relative_density_of_sandy_soils.png
+   :width: 500  
   
   - phi
 
