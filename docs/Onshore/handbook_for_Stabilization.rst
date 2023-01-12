@@ -15,8 +15,14 @@ Why DMM (Pros/Cons)?
 .....................
 
 - Ground Treamtment and Improvement
+
   - Pros: Low cost ( ~ 130 ft) to get design strength (145 psi) / Little vibration / used in most types of soils 
+  
   - Cons: Depth limitation / need large working space / underground utilities 
+
+- Liquefaction Mitigation
+
+- Excavation Support Walls
 
 How to do DMM?
 ...............
