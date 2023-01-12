@@ -36,7 +36,7 @@ Engineering parameters from SPT
   - Dr
   
     - Df = ((N1)60/(Cp*Ca*Cocr))^0.5 (Kulhawy and Mayne,1990)
-    - Dense SAND: N = 31-50 [bpf] / Dr = 65-85 [%] (Terzaghi and Peck,1948)
+    - **Dense SAND**: N = 31-50 [bpf] / Dr = 65-85 [%] (Terzaghi and Peck,1948)
   
   
   - phi
