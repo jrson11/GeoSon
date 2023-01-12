@@ -16,3 +16,8 @@ Fundamental SPT processing
     - Crl: Rod Length factor
     - Cbd: Borehole Diameter factor
   
+
+.. image:: ./images/GEC03-Table_4-2_Correction_factors_for_non_standard_SPT_procedure_and_equipment.png
+   :width: 700
+   
+(image from FHWA, 2011, GEC No. 3)
