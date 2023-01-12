@@ -16,9 +16,8 @@ Correction Factors
   - Ground water table
   - Embedment depth
   - Sloping
+  
+.. image:: ./images/GEC06-Table_5-2_Shape_factor.png
+   :width: 700
+   
 
-Local or Punching Shear
-.......................
-
-  - c* = 0.67 c
-  - phi* = 1/tan(0.67*tan(phi))
