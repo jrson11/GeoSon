@@ -35,6 +35,14 @@ Why DMM (Pros/Cons)?
 
 - Excavation Support Walls
 
+Terminology
+............
+
+- Binder: Chemically reactive material, i.e., lime, cement, gypsum
+- Filler: Non-reacting materials, i.e., sand, limestone, powder
+
+
+
 How to plan DMM?
 ...............
 
@@ -57,5 +65,7 @@ Which parameters should we know?
 - Modulus: E / Secont values of E (E50) / Unconfined compressive strength (qu)
 
 - Others: Poisson's ratio (v) / Permeability (k) / UnitWeight (UW)
+
+
   
 
