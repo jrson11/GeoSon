@@ -34,7 +34,7 @@ How to do DMM?
 ...............
 
 .. image:: ./images/DMM-Figure_7-Flowchart_for_DMM_projects.png
-   :width: 400
+   :width: 600
 
 
 
