@@ -28,7 +28,6 @@ Why DMM (Pros/Cons)?
 - Ground Treamtment and Improvement
 
   - Pros: Low cost ( ~ 130 ft) to get design strength (145 psi) / Little vibration / used in most types of soils 
-  
   - Cons: Depth limitation / need large working space / underground utilities 
 
 - Liquefaction Mitigation
@@ -40,6 +39,10 @@ Terminology
 
 - Binder: Chemically reactive material, i.e., lime, cement, gypsum
 - Filler: Non-reacting materials, i.e., sand, limestone, powder
+- Penetration (downstroke): Stage of mixing tool is deliverted to the appropriate depth
+- Withdrawal (upstroke): Stage of retrieval of the mixing tool
+- Stroke: One complete cycle (penetration + withdrawal)
+- Restroke: Additional cycle
 
 
 
@@ -57,9 +60,7 @@ Which parameters should we know?
 - Strength
 
   - Total Water to Binder Ratio (w:c)
-  
   - Curing time factor (fc)
-  
   - Peak vs Residual
   
 - Modulus: E / Secont values of E (E50) / Unconfined compressive strength (qu)
