@@ -1,6 +1,4 @@
-**Contents are brief summary from online sources**
-
-GeoSon_Shallow
+Shallow Foundation
 ==================
 
 Mode of Bearing Capacity Failure
