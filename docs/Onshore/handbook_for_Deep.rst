@@ -1,4 +1,4 @@
-GeoSon_Deep
+Deep Foundation
 ==================
 
 .. toctree::
@@ -9,6 +9,6 @@ GeoSon_Deep
     
     Lateral Capacity
 
-    Axial Capacity
+    Axial Capacity <./handbook_for_Deep_Axial>>
 
     
