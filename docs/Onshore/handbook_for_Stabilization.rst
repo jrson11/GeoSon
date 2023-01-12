@@ -40,6 +40,8 @@ How to plan DMM?
 
 .. image:: ./images/DMM-Figure_7-Flowchart_for_DMM_projects.png
    :width: 600
+   
+(image from FHWA Design Manual, 2013, Deep Mixing for Embankment and Foundation Support, No. FHWA-HRT-13-046)
 
 Which parameters should we know?
 ................................
