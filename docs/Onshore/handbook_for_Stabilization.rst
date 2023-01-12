@@ -10,6 +10,12 @@ What is DMM?
 
 : Deep soil mixing or cement deep soil mixing
 
+- Types
+
+  - Wet Mixing: injecting binders in slurry form to blend with the soil
+
+  - Dry Mixing: binders in powder form that react with the water already present in the soil
+
 
 Why DMM (Pros/Cons)?
 .....................
@@ -27,8 +33,8 @@ Why DMM (Pros/Cons)?
 How to do DMM?
 ...............
 
-- Wet Mixing
-  - injecting binders in slurry form to blend with the soil
+.. image:: ./images/DMM-Figure_7-Flowchart for DMM projects.png
+   :width: 400
 
-- Dry Mixing
-  - binders in powder form that react with the water already present in the soil
+
+
