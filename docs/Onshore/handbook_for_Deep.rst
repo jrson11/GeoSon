@@ -5,10 +5,10 @@ Deep Foundation
     :maxdepth: 2
     :caption: Piles
     
-    Installation <./handbook_for_Deep_Installation>>
+    Installation <./handbook_for_Deep_Installation>
     
-    Lateral Capacity
+    Lateral Capacity <./handbook_for_Deep_Lateral>
 
-    Axial Capacity <./handbook_for_Deep_Axial>>
+    Axial Capacity <./handbook_for_Deep_Axial>
 
     
