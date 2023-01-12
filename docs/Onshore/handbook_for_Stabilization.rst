@@ -13,9 +13,14 @@ What is DMM?
 - Types
 
   - Wet Mixing (SAND): injecting binders in slurry form to blend with the soil
+  
+    - Rotary
+    - Rotary + Jet
+    - Vertical
 
   - Dry Mixing (CLAY): binders in powder form that react with the water already present in the soil
 
+    - Rotary
 
 Why DMM (Pros/Cons)?
 .....................
