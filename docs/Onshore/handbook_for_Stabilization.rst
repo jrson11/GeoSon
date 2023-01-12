@@ -30,11 +30,24 @@ Why DMM (Pros/Cons)?
 
 - Excavation Support Walls
 
-How to do DMM?
+How to plan DMM?
 ...............
 
 .. image:: ./images/DMM-Figure_7-Flowchart_for_DMM_projects.png
    :width: 600
 
+Which parameters should we know?
+................................
 
+- Strength
+
+  - Total Water to Binder Ratio (w:c)
+  
+  - Curing time factor (fc)
+  
+  - Peak vs Residual
+  
+- Modulus: E / Secont values of E (E50) / Unconfined compressive strength (qu)
+  
+  
 
