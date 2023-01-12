@@ -54,6 +54,6 @@ Which parameters should we know?
   
 - Modulus: E / Secont values of E (E50) / Unconfined compressive strength (qu)
 
-- OthersL Poisson's ratio (v) / Permeability (k) / UnitWeight (UW)
+- Others: Poisson's ratio (v) / Permeability (k) / UnitWeight (UW)
   
 
