@@ -44,7 +44,7 @@ Engineering parameters from SPT
   - phi
   
 .. image:: ./images/Hatanaka-1996-phi_from_N.png
-   :width: 700
+   :width: 400
 (image from Hatanaka and Uchida, 1996, Empirical correlation between penetration resistance and internal friction angle of sandy soils)
 
 - CLAY
