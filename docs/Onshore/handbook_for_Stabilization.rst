@@ -4,8 +4,18 @@ Soil Stabilization
 
 Deep Mixing Method (DMM)
 ------------------------
+
+What is DMM?
+............
+
 : Deep soil mixing or cement deep soil mixing
 
+
+Why DMM (Pros/Cons)?
+.....................
+
+How to do DMM?
+...............
 
 - Wet Mixing
   - injecting binders in slurry form to blend with the soil
