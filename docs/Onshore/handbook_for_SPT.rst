@@ -38,8 +38,6 @@ Engineering parameters from SPT
     - Df = ((N1)60/(Cp*Ca*Cocr))^0.5 (Kulhawy and Mayne,1990)
     - Dense SAND: N = 31-50 [bpf] / Dr = 65-85 [%] (Terzaghi and Peck,1948)
   
-.. image:: ./images/GEC03-Table_4-3_Relative_density_of_sandy_soils.png
-   :width: 500  
   
   - phi
   
