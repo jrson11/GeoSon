@@ -33,7 +33,7 @@ Why DMM (Pros/Cons)?
 How to do DMM?
 ...............
 
-.. image:: ./images/DMM-Figure_7-Flowchart for DMM projects.png
+.. image:: ./images/DMM-Figure_7-Flowchart_for_DMM_projects.png
    :width: 400
 
 
