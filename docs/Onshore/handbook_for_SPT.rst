@@ -27,3 +27,14 @@ Fundamental SPT processing
   - (N1)60 = N60 * Cn
 
     - where Cn = 9.79*(1/SVeff)^0.5 (Liao and Whitman,1986)
+
+Engineering parameters from SPT
+-------------------------------
+
+- SAND
+
+  - Dr
+  
+  - phi
+
+- CLAY
