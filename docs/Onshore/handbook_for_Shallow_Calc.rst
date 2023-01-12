@@ -20,4 +20,8 @@ Correction Factors
 .. image:: ./images/GEC06-Table_5-2_Shape_factor.png
    :width: 700
    
-
+.. image:: ./images/GEC06-Table_5-3_Groundwater_factor.png
+   :width: 700
+   
+.. image:: ./images/GEC06-Table_5-4_Depth_Factor.png
+   :width: 700
