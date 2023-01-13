@@ -1,13 +1,18 @@
-Shallow Foundation Design
+FHWA
 --------------------------
 
-q_ult = c Nc + q Nq + 0.5 G B Ng
+Main Features
+..............
 
-Soil Type
-..........
+- Equation is same, but a little different order.
+  
+  - q_ult = c Nc + 0.5 G B Ng + q Nq
+  
+- FHWA uses correction factor of GWT.
 
-  - Cohesive soils (phi=0): c*(2+pi) + q*1 + 0
-  - Non-Cohesive soils: The embedment effect is particularlyimportant.
+  - Thus, surcharge term q uses total unit weight ???? (Not Sure)
+
+
 
 Correction Factors
 ...................
