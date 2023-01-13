@@ -27,25 +27,24 @@ Meyerhof
   - Nq = (tan(45+phi/2))^2*exp(pi*tan(phi))
   - Nc = (Nq-1)cot(phi)
   - Ng = 2(Nq+1)tan(phi)
+  
+- Correction
+  
+  - Shape
+  - Depth
+  - Inclination
 
 FHWA
 --------------------------
 
-Main Features
-..............
-
-- Equation is same, but a little different order.
-  
-  - q_ult = c Nc + 0.5 G B Ng + q Nq
-  
-- FHWA uses correction factor of GWT.
-
+- Main Features
+  - Equation is same, but a little different order (confusing)
+  - almost same as Meyerhof, but has one more correction factor(GWT)
   - Thus, surcharge term q uses total unit weight ???? (Not Sure)
 
 
 
-Correction Factors
-...................
+- Correction Factors
 
   - Footing shape
   
