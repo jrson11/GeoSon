@@ -25,3 +25,12 @@ Tracking previous theories
 (source: https://www.geostru.eu/blog/2016/06/20/bearing-capacity-for-shallow-foundations/?lang=en)
 
 
+.. image:: ./images/GeoStru-1_Terzaghi_formula.png
+   :width: 400
+   
+   
+.. image:: ./images/GeoStru-2_Meyerhof_formula.png
+   :width: 400
+   
+.. image:: ./images/GeoStru-4_Vesic_formula.png
+   :width: 400
