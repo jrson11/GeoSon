@@ -24,12 +24,14 @@ Tracking previous theories
 
 (source: https://www.geostru.eu/blog/2016/06/20/bearing-capacity-for-shallow-foundations/?lang=en)
 
-
+- Terzaghi (1955)
 .. image:: ./images/GeoStru-1_Terzaghi_formula.jpg
-   :width: 400
-   
+   :width: 600
+
+- Meyerhof (1963)
 .. image:: ./images/GeoStru-2_Meyerhof_formula.jpg
    :width: 400
-   
+
+- Vesic (1975)
 .. image:: ./images/GeoStru-4_Vesic_formula.jpg
-   :width: 400
+   :width: 600
