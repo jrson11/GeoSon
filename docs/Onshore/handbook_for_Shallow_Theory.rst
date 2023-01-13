@@ -2,7 +2,7 @@ Shallow Foundation Theory
 --------------------------
 
 
-Mode of Bearing Capacity Failure
+Failure Modes
 ................................
 A failure caused by the vertical and lateral displacement of foundation soils due to lack of sufficient strength is called a "Bearing Capacity Failure".
 
