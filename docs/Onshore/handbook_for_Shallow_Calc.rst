@@ -13,7 +13,7 @@ Terzaghi
 
 - Notice
 
-  - Terzaghi introduced NcNqNg, but no longer used.
+  - Terzaghi introduced **original NcNqNg**, but **no longer used**.
 
 Meyerhof
 -----------
