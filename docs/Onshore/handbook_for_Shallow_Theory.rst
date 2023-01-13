@@ -17,3 +17,11 @@ A failure caused by the vertical and lateral displacement of foundation soils du
 - Punching Shear
 
   : In some cases, failure involves vertical compression beneath the footing without bulging of the soils.
+
+
+Tracking previous theories
+...........................
+
+(source: https://www.geostru.eu/blog/2016/06/20/bearing-capacity-for-shallow-foundations/?lang=en)
+
+
