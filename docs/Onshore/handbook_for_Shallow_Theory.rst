@@ -26,12 +26,12 @@ Tracking previous theories
 
 - Terzaghi (1955)
 .. image:: ./images/GeoStru-1_Terzaghi_formula.jpg
-   :width: 600
+   :width: 700
 
 - Meyerhof (1963)
 .. image:: ./images/GeoStru-2_Meyerhof_formula.jpg
-   :width: 400
+   :width: 500
 
 - Vesic (1975)
 .. image:: ./images/GeoStru-4_Vesic_formula.jpg
-   :width: 600
+   :width: 500
