@@ -18,10 +18,12 @@ Terzaghi
 Meyerhof
 -----------
 - Main Features
+
   - suggested to add correction factors to Terzaghi approach.
   - Updated NcNqNg table is important and widely used.
   
 - Equation
+
   - Nq = (tan(45+phi/2))^2*exp(pi*tan(phi))
   - Nc = (Nq-1)cot(phi)
   - Ng = 2(Nq+1)tan(phi)
