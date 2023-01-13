@@ -38,11 +38,10 @@ FHWA
 --------------------------
 
 - Main Features
+
   - Equation is same, but a little different order (confusing)
   - almost same as Meyerhof, but has one more correction factor(GWT)
-  - Thus, surcharge term q uses total unit weight ???? (Not Sure)
-
-
+  - Thus, surcharge term q uses **total unit weight** (Not Sure)
 
 - Correction Factors
 
