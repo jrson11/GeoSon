@@ -26,7 +26,7 @@ Meyerhof
 
   - Nq = (tan(45+phi/2))^2*exp(pi*tan(phi)) <-- (Reissner,1924)
   - Nc = (Nq-1)cot(phi) <-- (Prandtl,1921)
-  - Ng = (N1-1)tan(1.4phi), but not used
+  - Ng = (N1-1)tan(1.4phi) <-- (Meyerhof) but not used
   - Thus, Nq = 2(Nq+1)tan(phi) <-- (Caquot and Kerisel,1953)(Vesic,1973)
   
 - Correction
