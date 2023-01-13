@@ -1,39 +1,4 @@
-Terzaghi
-----------
-- Eqiation
 
-  - strip: qu = c'Nc + qNq + 0.5GBNg
-  - square: qu = c'Nc*1.3 + qNq + 0.5GBNg*0.8
-  - circle: qu = c'Nc*1.3 + qNq + 0.5GBNg*0.6
-  
-- Correction
-
-  - q & g terms must be adjusted by ground water table
-  - which consider the soil under the footing up to Df + B.
-
-- Notice
-
-  - Terzaghi introduced **original NcNqNg**, but **no longer used**.
-
-Meyerhof
------------
-- Main Features
-
-  - suggested to add correction factors to Terzaghi approach.
-  - Updated NcNqNg table is important and widely used.
-  
-- Equation
-
-  - Nq = (tan(45+phi/2))^2*exp(pi*tan(phi)) <-- (Reissner,1924)
-  - Nc = (Nq-1)cot(phi) <-- (Prandtl,1921)
-  - Ng = (N1-1)tan(1.4phi) <-- (Meyerhof) but not used
-  - Thus, Nq = 2(Nq+1)tan(phi) <-- (Caquot and Kerisel,1953)(Vesic,1973)
-  
-- Correction
-  
-  - Shape
-  - Depth
-  - Inclination
 
 FHWA
 --------------------------
