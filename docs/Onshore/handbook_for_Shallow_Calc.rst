@@ -5,6 +5,12 @@ Terzaghi
   - strip: qu = c'Nc + qNq + 0.5GBNg
   - square: qu = c'Nc*1.3 + qNq + 0.5GBNg*0.8
   - circle: qu = c'Nc*1.3 + qNq + 0.5GBNg*0.6
+  
+- Correction
+
+  - q & g terms must be adjusted by ground water table
+  - which consider the soil under the footing up to Df + B.
+
 
 FHWA
 --------------------------
