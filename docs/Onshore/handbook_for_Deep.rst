@@ -10,15 +10,6 @@ Deep Foundation
     Lateral Capacity <./handbook_for_Deep_Lateral>
 
     Axial Capacity <./handbook_for_Deep_Axial>
-
     
-Topics
-.......
-
-- API method
-- FHWA method
-- t-z modelling
-- Downdrag force
-- Frost Heave
-- Cyclic loading
-- Group effect
+    Other Topics <./handbook_for_Deep_Others>
+    
