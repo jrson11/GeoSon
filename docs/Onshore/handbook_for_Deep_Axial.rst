@@ -22,6 +22,12 @@ Driven Pile
     
 - FHWA
 
+    - alpha: Tomlinson,1977
+    
+- API
+
+    - alpha: Nowacki,1992
+
 Drilled Shaft
 .............
 
