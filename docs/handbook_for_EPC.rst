@@ -24,6 +24,13 @@ Pre-FEED
   - Lateral Capacity
   
   - Hazards (fault/sinkhole/liqufaction)
+  
+3. Memos
+.........
+
+  - Internal
+  
+  - External
 
 FEED
 ------
