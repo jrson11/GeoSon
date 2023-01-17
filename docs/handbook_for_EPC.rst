@@ -15,7 +15,13 @@ Pre-FEED
   
 2. Analysis
 
-
+  - Foundation Bearing Capacity
+  
+  - Settlements
+  
+  - Lateral Capacity
+  
+  - Hazards (fault/sinkhole/liqufaction)
 
 FEED
 ------
