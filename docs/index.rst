@@ -1,4 +1,4 @@
-Integrated Geophysics and Geotechnical Engineering (Digital Handbooks)
+Integrated Geophysics & Geotechnical Engineering (Digital Handbooks)
 ======================================================================
 
 .. image:: ../images/GeoSon-concept_diagram-v2.png
