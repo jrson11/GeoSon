@@ -8,11 +8,7 @@ Integrated Geophysics and Geotechnical Engineering (Digital Handbooks)
    :maxdepth: 1
    :caption: Data Science
    
-   Risk_Assessment <./Data_Science_v2/OTC2024>
-   ..Statistics <./Data_Science/handbook_for_STAT>
-   ..Stochastics (MCMC) <./Data_Science/handbook_for_MCMC>
-   ..Bayesian_Inference <./Data_Science/handbook_for_Bayes>
-   ..Machine_Learning <./Data_Science/handbook_for_ML>
+   Risk_Assessment <./Data_Science/OTC2024>
 
 
 
